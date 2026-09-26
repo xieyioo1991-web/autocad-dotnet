@@ -1,6 +1,35 @@
 # AutoCAD 2020 plugin setup
 
-## 当前阶段：点筋布置（35版纵筋阳角及弯锚排除）；已验收锚点：1.0.0.33
+## 当前已验收基准与锚点：1.0.0.43
+
+用户已于2026-09-26将 **1.0.0.43** 确认为阶段性锚点。后续修改以43版为基础，继续完善尺寸标注、图名等细节；具体修改由用户提出。细节修复完成后，待用户明确指示再进入 **1.0.1**。
+
+### 当前版本位置
+
+| 用途 | 仓库内路径 |
+| --- | --- |
+| 已验收43版发布目录 | [experiments/title-placement43/artifacts/Debug/](experiments/title-placement43/artifacts/Debug/) |
+| AutoCAD 加载文件 | [AutoCADPlugin-1.0.0.43.dll](experiments/title-placement43/artifacts/Debug/AutoCADPlugin-1.0.0.43.dll) |
+| 对应43版源码 | [experiments/title-placement43/src/AutoCADPlugin/](experiments/title-placement43/src/AutoCADPlugin/) |
+| 冻结锚点及验收说明 | [anchors/1.0.0.43/](anchors/1.0.0.43/README.md) |
+| 当前阶段与后续修改定位 | [docs/阶段索引.md](docs/阶段索引.md) |
+
+当前电脑的发布目录为：
+
+```text
+C:\Users\Administrator\Desktop\00C#.NET二次开发\experiments\title-placement43\artifacts\Debug
+```
+
+保存图纸并重启 AutoCAD 2020 后，使用 `NETLOAD` 加载该目录的 `AutoCADPlugin-1.0.0.43.dll`，保留旁边的 `Fonts/` 和 `ReferenceStyle.dwg`，通过 `SD_VERSION` 确认版本及加载路径。
+
+### 后续修改与历史版本
+
+- 后续工作从 `experiments/title-placement43/` 或43锚点的 `source/` 复制到新的独立目录后继续，保留原43源码、发布文件和冻结快照。
+- 仓库根目录的 `src/AutoCADPlugin/`、`artifacts/Debug/` 和根解决方案对应历史33基线；当前43版请使用上表中的位置。
+- 33版仍是纵筋阶段历史锚点，38版仍是点筋阶段历史锚点；其他历史锚点和中间版本继续保留。
+- 本仓库已启用 Git，并同步至 GitHub 私有仓库。下文为历史开发记录，当时的版本、路径和验收状态以其记录时间为准；当前基准以本页开头、`AGENTS.md` 和阶段索引为准。
+
+## 历史记录：33版纵筋验收与35版点筋试验
 
 用户于2026-09-25暂时验收截至33版的纵筋布置阶段。稳定源码为src/AutoCADPlugin，稳定DLL为artifacts/Debug/AutoCADPlugin-1.0.0.33.dll；原发布DLL/PDB、源码快照、测试记录及SHA256清单冻结于anchors/1.0.0.33。原21、23、25、26、30版锚点继续保留。
 
