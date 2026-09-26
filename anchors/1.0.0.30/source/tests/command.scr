@@ -1,0 +1,31 @@
+SECURELOAD
+0
+_NETLOAD
+D:\AnsysTemp\AutoCADPlugin-Offset30.dll
+SD_VERSION
+(setq old (ssget "_X" '((8 . "S-REIN"))))
+(command "_.ERASE" old "")
+(setq before (sslength (ssget "_X")))
+SD_REBAR
+_ALL
+
+(setq report (open "D:/AnsysTemp/offset-command.txt" "w"))
+(setq added (- (sslength (ssget "_X")) before))
+(write-line (strcat "new-entities=" (itoa added)) report)
+(setq bars (ssget "_X" '((8 . "S-REIN"))))
+(write-line (strcat "bars=" (itoa (sslength bars))) report)
+(setq closed 0 idx 0)
+(repeat (sslength bars) (setq ent (entget (ssname bars idx))) (if (= 1 (logand 1 (cdr (assoc 70 ent)))) (setq closed (1+ closed))) (setq idx (1+ idx)))
+(write-line (strcat "closed-bars=" (itoa closed)) report)
+(setq idx 0)
+(repeat (sslength bars) (setq ent (entget (ssname bars idx))) (write-line (strcat "bar=" (itoa idx)) report) (foreach pair ent (if (member (car pair) '(10 43)) (progn (prin1 pair report) (write-line "" report)))) (setq idx (1+ idx)))
+(close report)
+SD_REBAR
+_ALL
+
+(setq report (open "D:/AnsysTemp/offset-command.txt" "a"))
+(setq bars (ssget "_X" '((8 . "S-REIN"))))
+(write-line (strcat "after-repeat=" (itoa (sslength bars))) report)
+(close report)
+_QUIT
+_N

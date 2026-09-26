@@ -1,0 +1,474 @@
+[
+  {
+    "Path": "AutoCADPlugin-1.0.0.30.dll",
+    "Sha256": "F7BDE77F6B521147093BFF501E8879D65F307AB1DDB1C577EC1ADDC36FC423FC"
+  },
+  {
+    "Path": "AutoCADPlugin-1.0.0.30.pdb",
+    "Sha256": "6A2457EF84365304F15AD8C3D143ABC9E776337CF2D305F32BADFC5F3B72484C"
+  },
+  {
+    "Path": "README.md",
+    "Sha256": "B533C94A88703F75E443CE3D5C25B90E6F1D9349B75543A720C8F3119A57F650"
+  },
+  {
+    "Path": "source-1.0.0.30.zip",
+    "Sha256": "905451F6BBDBC42387D01CFA0D31FA318773980A602571BEAF72374A43F5F78C"
+  },
+  {
+    "Path": "source\\.editorconfig",
+    "Sha256": "FADDA5487DDAC1FEFF0E08D679CF613CD5848EEC7F080E3DF6BE4A0FFC93663A"
+  },
+  {
+    "Path": "source\\AGENTS.md",
+    "Sha256": "80E7114F5ED2E1CCAD4DFD3760FB369AA1FAF35BD8ACDA35DCCE3ED3C1607AD4"
+  },
+  {
+    "Path": "source\\README.md",
+    "Sha256": "979E8CD8D43CC676CF0B0CC6A8BD1D90507A4A6177DD0B9A493AF9AD2393E3E1"
+  },
+  {
+    "Path": "source\\scripts\\Publish-Plugin.ps1",
+    "Sha256": "DDF55CDF21BFF72A4AC82699E46DA4A7CE03856144C08D115837792D5286198E"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\ArchitecturalOutlineExtractor.cs",
+    "Sha256": "FD76A1CF794BE4FD8FDF3435C7E83CB2D8F20E9CF3AB48B5BB34DD2C5098377C"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\AutoCADPlugin.csproj",
+    "Sha256": "1E5F59B4E99C02A776F772896A34D1C5CD24730880C4337BEBD95A58466647D0"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\BeamAnchorGuide.cs",
+    "Sha256": "5A56C6832502F135043768C6269E101BE863946C0B0D5772D2CF1999905FC36F"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\BeamTopRebar.cs",
+    "Sha256": "3F1B0FB6C9FCD4B08ED55A5BA3062E43215F87899328FDF5419B2C83324ABCCD"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\BeamTopRegion.cs",
+    "Sha256": "1E6BEEECAD9919B4FCB8D53A78369F083860ABD51080F44A27C32133F95F5DA7"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\Commands.cs",
+    "Sha256": "331B6C1F4E5F30522C0BD790CBA09C19DC01B7A44C433A8253FE10048E55860F"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\ContourGraph.cs",
+    "Sha256": "EA0CA9902D465200444064575F3A3F23A1EB862F1605D3109D6F5BBF147DD8B6"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\DetailWriter.cs",
+    "Sha256": "49B38867C7EBA38F57D7AF78BB6FA5A8AC38C5CEAEA24A43990B669252E68D0F"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\Example1Rebar.cs",
+    "Sha256": "80D7D6404EF7308DE43D0289EF7767DC822A2C1ADD68030DBF7C347E8EFE7E2D"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\Example1RebarData.cs",
+    "Sha256": "24F94A2E9242B12C6FB1C572729C7B0EC8155AD75948743D784A3076401836AA"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\GeometryTools.cs",
+    "Sha256": "3B1D9C364EFC2AA2DDC08DADA8E5220BE21D491BCD2A005AF8CE02D51D326EAE"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\OffsetRebar.cs",
+    "Sha256": "FC72F4B87DE6F95D67E8ED1CCF29E017B0CE66333762971E59CF5A7DE165B44D"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\OutlineRole.cs",
+    "Sha256": "ECBA97A7203FA082AA7E5CF6385A73744F68FC75DF09B59E94282B7D58D0B426"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\PolygonRay.cs",
+    "Sha256": "1C219FE5028A2B580C74506FBF3FBFA86E494205D6533C89B3B0DF458D78C925"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\RebarAnchorage.cs",
+    "Sha256": "52E3E802366F47AD5994F653A0FE52A3A033777C95024A8C87571BABE9C925F6"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\RebarCornerBreak.cs",
+    "Sha256": "BA57B9A9469E4356D4F3214279FF32E1D91D6116CEB8B00E8DC7FB9AA0C45A44"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\RebarExtensionCollision.cs",
+    "Sha256": "4090C3B65F27DCF9C4310E0432A9187A80B46177A5ACFC103A0AD52B12220EA1"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\RebarPath.cs",
+    "Sha256": "656E3D31AD997DFB9BE5DF0DA07B40AB9355C29A3F44AA9CC074724826FA7DC7"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\Standards.cs",
+    "Sha256": "98EFBE2C20AE6BA69E596DA37A7C9CECBFF42BB467719FA1BBA0A24CAACB9C71"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\StructuralPathExtractor.cs",
+    "Sha256": "35F328750CF2CF8C0867EE87CA99DFFF91BFF6113AEF150BD8F987346E9F1F8A"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\SupportClassification.cs",
+    "Sha256": "85E54290927BAD223CDB703D70A7E5E65F99AC58427BFB7D35060DE702A0ED4A"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\SupportContact.cs",
+    "Sha256": "575ACFC59091525A56DD6076588862B07D88CDEA018561D53269A12412D19F72"
+  },
+  {
+    "Path": "source\\src\\AutoCADPlugin\\SupportOpening.cs",
+    "Sha256": "FF1E75CF3C0CB15EA5C418A7D16FE3D1674966050C2D606E955319B4B8C14B46"
+  },
+  {
+    "Path": "source\\tests\\anchorage-preview.png",
+    "Sha256": "A53F130EF8EB50399D21CBFA38D0FA1CD054DDA2838716FD649D150920FE887F"
+  },
+  {
+    "Path": "source\\tests\\AnchorageChecks.cs",
+    "Sha256": "93E5EF0AA3019BAFCC6BF513B63DD89710DF99A3249FC0033179F8013F5FCAE4"
+  },
+  {
+    "Path": "source\\tests\\beam-top-preview29.png",
+    "Sha256": "B8B7A1B87CE6FF0A4BE5A814C79538A3402DF8EECE349AAF77D262DD103779F6"
+  },
+  {
+    "Path": "source\\tests\\BeamTopChecks.cs",
+    "Sha256": "9A33A63A9F06507833A1802C5F79E5913E89005F0D30B30144ED00EDC8516108"
+  },
+  {
+    "Path": "source\\tests\\check.scr",
+    "Sha256": "607280D9C158F5217E5B0F96D0DCD2980B996551D170ADDC5E61C26E66351EFB"
+  },
+  {
+    "Path": "source\\tests\\command-core.log",
+    "Sha256": "4E087BA185241976F6ACF14936DC525A1C67CB11F35510CF0432A9AD6B12A688"
+  },
+  {
+    "Path": "source\\tests\\command-results.txt",
+    "Sha256": "90FDB4B47C7B2623DC3E4CBC54F7E094EE1FD8006030B289FDFE3DBF18642093"
+  },
+  {
+    "Path": "source\\tests\\command.scr",
+    "Sha256": "67D4F7D04CAB0EAF57B97594C680368EA873B2E4774E2FD8EEA6AA19788FB32D"
+  },
+  {
+    "Path": "source\\tests\\core.log",
+    "Sha256": "38C58D9A91D442B6F9CAC22882FDBE0C282B51ED3ABF284F2CBB5F6CF0A92E62"
+  },
+  {
+    "Path": "source\\tests\\core24.log",
+    "Sha256": "E20B6D6D428CE9FEEBDDB7AF925323301532EBFD5C44D9A403FFC61E13D34F67"
+  },
+  {
+    "Path": "source\\tests\\core25-before.log",
+    "Sha256": "7B51DB077D1B0B4B6CA7D272F176227CEB16146FBD154BE1D58DD82327549C21"
+  },
+  {
+    "Path": "source\\tests\\core25.log",
+    "Sha256": "A290223221E38FEE97BD582BF3D9B34B1B11F3B5F20F8F4B12990BF925A9FFEA"
+  },
+  {
+    "Path": "source\\tests\\core26.log",
+    "Sha256": "D80BDEB2BC8BED49755A4D7DA4F77ADA7A380E7415F4C1C46FEBCFEA040AF75D"
+  },
+  {
+    "Path": "source\\tests\\core27.log",
+    "Sha256": "4AD2A45335EA21243FE8EB8A6E63E3498E5364BFA0DFAA163A45345ECF52D710"
+  },
+  {
+    "Path": "source\\tests\\core28.log",
+    "Sha256": "816A72E9B4A896DFE6168339CE98F49A56929C34E21E8A9DC3364508396476C1"
+  },
+  {
+    "Path": "source\\tests\\core29-first.log",
+    "Sha256": "B562A878729B69E6FEE389E8EDC2C8A5D1A8C00326C01120FAF420800CF58854"
+  },
+  {
+    "Path": "source\\tests\\core29.log",
+    "Sha256": "341360D05070B705B00ADA7205349A70CD13411DAFEEC4414C7B7E712EC5F05D"
+  },
+  {
+    "Path": "source\\tests\\core30.log",
+    "Sha256": "958FC6CE808946F931E97AB29EB30868A47A43C70CB568AF66EE63C9E17D6107"
+  },
+  {
+    "Path": "source\\tests\\corner-break-preview.png",
+    "Sha256": "9E174B047840855A0D1BB71102FE0DF2E53C1C9A2FB310FD58DB1A358ABEF0AA"
+  },
+  {
+    "Path": "source\\tests\\corner-size-preview28.png",
+    "Sha256": "E923FB8C6C8C526176F81BA5905A46C3AD911F7EA2DB762AA3CE7B9FA4FAD4D3"
+  },
+  {
+    "Path": "source\\tests\\corner-stop-preview.png",
+    "Sha256": "534AB67A4221741930D145577C0910B7DF1C9DCCD061A001C7CC81795DDFE671"
+  },
+  {
+    "Path": "source\\tests\\CornerBreakChecks.cs",
+    "Sha256": "D940B60765A0383092CF8F2EB9D6A181C503C07625077F74DE127988108F71C3"
+  },
+  {
+    "Path": "source\\tests\\CornerSizeChecks.cs",
+    "Sha256": "824A9B568A6A78460DD331DB227AC0AEE83502F7D099ACA93419BB1C13B5B64F"
+  },
+  {
+    "Path": "source\\tests\\downward-anchor-preview30.png",
+    "Sha256": "C53D0C4F6E89098D0AF1AF8E10E521BC7F807AB16F5CCD3861D82F21CCECC917"
+  },
+  {
+    "Path": "source\\tests\\offset-results.txt",
+    "Sha256": "7B2C16939D0A688D5CB0C012EDC2871BFD826086EDB667430FA2C75E46553E8A"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command-results.txt",
+    "Sha256": "F0CFC7A567675DE202D04D47D59C0DA984D48EEECDA9D12C21849F3484695B83"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command.log",
+    "Sha256": "211987804B8E41071B3B31953138D4F09AC32064D2986E83C84DEE62419A9C51"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command24.log",
+    "Sha256": "51AA5C65CE455B83CC91F169335C007979A866338D5F51CA6E43AF119E1C46AB"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command26-results.txt",
+    "Sha256": "B846B5948C7570E86B5778797DB931BBE1C9E90B8B61492F88E4AF0A1805BB7E"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command26.log",
+    "Sha256": "FFB354D97FABFD80DB53BC3CCF0AAD2D922DDD8CE69DA619DFABDED180F7A293"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command27-results.txt",
+    "Sha256": "80A0A41568E4B55772027EC026A742CD1442F315D7C407090C48753B9154CD5C"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command27.log",
+    "Sha256": "C9E9CAAA58826837DDBBAE9ABCEF14BC3B5939D267F576E8C901FB549862FDCD"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command28-results.txt",
+    "Sha256": "CDA4BCFAC87EC48CCD9AB5E63554DC86F5513E64B54B91F3B95E9E6D87FA7BF4"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command28.log",
+    "Sha256": "0B5BDE5AF9C2CF4C1B20169FB1CE31E59CD2FFD787CB0E84820C85748729DF86"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command29-results.txt",
+    "Sha256": "7F40E0A04A2B24E9D80AA96A54BFCE5B3243BBCBCFF504404FFEEB7397F77F3E"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command29.log",
+    "Sha256": "346BDC6039E5E821BA23D251BAB2AA7F97AF48C2D309973B128DC459FAF76104"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command30-results.txt",
+    "Sha256": "95AED174C25BA5567D591A6BABD0880E23445A949DCA85F61990911F5D477932"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample-command30.log",
+    "Sha256": "7BB20B54C4F48361BD5736FFFCD4B3FB14CFEC166725963500C70CC9B9593B23"
+  },
+  {
+    "Path": "source\\tests\\offset50-sample.dwg",
+    "Sha256": "DBB18CB144341EAC62409321EDB82111F43E734967F8C44B90E1DC296C54556C"
+  },
+  {
+    "Path": "source\\tests\\OffsetChecks.cs",
+    "Sha256": "2912C7715A490055E082F23794CB5F1AE7CC185816E1B897DDD6449C70290E31"
+  },
+  {
+    "Path": "source\\tests\\OffsetChecks.csproj",
+    "Sha256": "13497008869C4E6AF6A43A19BE7D783A04EB3BA88FC200C302854B456B1486BA"
+  },
+  {
+    "Path": "source\\tests\\point-contact-legacy-command-results.txt",
+    "Sha256": "FC1FA57CF9D5B73F58C22267DA0C059C22F24106160EC9D47E0A8A4E2EAB1368"
+  },
+  {
+    "Path": "source\\tests\\point-contact-legacy-command.log",
+    "Sha256": "352A43637EB20DE468D8B444ECF6D58333395A8BFF842C024D671562D58F6ED2"
+  },
+  {
+    "Path": "source\\tests\\point-contact-legacy-command24.log",
+    "Sha256": "4F53AAA9269ADF186534FE51959A8F7810374A3076E9D0C6BCD2C44337D9A1E5"
+  },
+  {
+    "Path": "source\\tests\\point-contact-legacy.dwg",
+    "Sha256": "BB1E1B6A6324EE29F3396ED0AF378EFB0423B7055DF29B89369FF759BCE9159E"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command-results.txt",
+    "Sha256": "FC1FA57CF9D5B73F58C22267DA0C059C22F24106160EC9D47E0A8A4E2EAB1368"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command.log",
+    "Sha256": "863C3C45913FA7E12B5A5CE7BB9F370CBF5A0186D1C37524AA07B6C16032A648"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command24.log",
+    "Sha256": "AC71FDCF3F68B923C69A95EC52CD87C79E68B7365D0C1F85C91331BBD9A5882D"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command26-results.txt",
+    "Sha256": "62551CBEF47124149C166EBB0A515D79CBF64F6DA3BE08060C90BA327D8F8204"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command26.log",
+    "Sha256": "D8AADDCE75BF7407F90486856D679340FE4CB4272332BE2743DCD3C019DCBD00"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command27-results.txt",
+    "Sha256": "36FD2B4BA441889B6F6A9B7AEBEBD3E5E1C80447FAC73FDC5E30B9E1E605EDC3"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command27.log",
+    "Sha256": "2BFAC22BAA5B1E62B200D50DD965C86788D5A9FB79C4AD97FD5347F972F171D0"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command28-results.txt",
+    "Sha256": "36FD2B4BA441889B6F6A9B7AEBEBD3E5E1C80447FAC73FDC5E30B9E1E605EDC3"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command28.log",
+    "Sha256": "3176950157128DA4F7EA806372737BFA71E22036CFBCA43B2C4668F3133D0376"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command29-results.txt",
+    "Sha256": "62712217310B022CE1039F604B479B32051F9C06AF296A238A804E3EEBA610BD"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command29.log",
+    "Sha256": "6F39F7358D4AD801FB7E1A9307DEBACFA280C5BA4519547285A1B3A0613E88AF"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command30-results.txt",
+    "Sha256": "62712217310B022CE1039F604B479B32051F9C06AF296A238A804E3EEBA610BD"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged-command30.log",
+    "Sha256": "3A74E20BAC03734197549B3618B68D60E4B4BF784F9A0A81A6C36A936571CF01"
+  },
+  {
+    "Path": "source\\tests\\point-contact-tagged.dwg",
+    "Sha256": "42FE8D279F202848822EC77594C9D1EF38EE35BB3C44B43806611866BF0A68FA"
+  },
+  {
+    "Path": "source\\tests\\PointContactChecks.cs",
+    "Sha256": "28104453D139ABA68EC80618A81122E7ABCC5B0E6CC9D6D2B1E4A894FEB3EEB3"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command25-results.txt",
+    "Sha256": "FC1FA57CF9D5B73F58C22267DA0C059C22F24106160EC9D47E0A8A4E2EAB1368"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command25.log",
+    "Sha256": "14C9DB2EB420B8681923DEA9781F0C6F2CBC46092F776898003A5E0FDE85501C"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command26-results.txt",
+    "Sha256": "A1AB30D07E423ECD4B078E72AA04E1DCBADCB7220A721C9FCDD9F0C2F910551B"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command26.log",
+    "Sha256": "E410AA4C19834335DBA867BF8DCE27F576DF17F8C01C7DBFB80143B38B67D141"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command27-results.txt",
+    "Sha256": "BE7FFD857ACD6DB84534276F2900A020202E6B122C6654CABE7FB2E1082F7324"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command27.log",
+    "Sha256": "3D4D8185AE049D146D2928D69E9C2D35BB116EBA322A62C021819AEA03F9AF8F"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command28-results.txt",
+    "Sha256": "3362915CE0673002B4388E086FA60B506A0A6BCED75E52B92AB79E2822F638E5"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command28.log",
+    "Sha256": "8B7566586EE9EB7689B18062F59B9235B4524E913585372E9443B43870897841"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command29-results.txt",
+    "Sha256": "3C864481743531F00A2D16DDD053E26F2EB1824D913F2402E77A4D37DC8D8F62"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command29.log",
+    "Sha256": "BB6C959076BF3A62FC99E413A65E5B99AF679474E9CBA4EDFAE46DE774CFC053"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command30-results.txt",
+    "Sha256": "B3BBD7F5747C04F73E41BA0CC0C6FD639AC0D59E81C735D217BF61CC62D56BDE"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-command30.log",
+    "Sha256": "6D7BBF707DD25D3D5CB710FF00888D08F75B33D015C97A186C33E28EC85DF423"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-entities.txt",
+    "Sha256": "C4792ACDE8D55F502FEF1C6419C17B8F8DA25B13091A6A3B754195EA33EBFC8A"
+  },
+  {
+    "Path": "source\\tests\\precision-interface-preview.png",
+    "Sha256": "EC841B8016A8FC8B668E93ED247A6F7B7A702B6103532367770BADF908339FB9"
+  },
+  {
+    "Path": "source\\tests\\precision-interface.dwg",
+    "Sha256": "47329DC71FFBC6A15B14FDC779969F3D60A769169136AC0DC9AE42E307C351F1"
+  },
+  {
+    "Path": "source\\tests\\preview.png",
+    "Sha256": "2BD9B9970174B7B5AB92C57C5DBCB29C7D679FB50A5C907D267D9CF9A331F136"
+  },
+  {
+    "Path": "source\\tests\\render-entities.txt",
+    "Sha256": "B340ED52C3ADD8E4A8A21C34C46FC7437E9FB24BEEF60EF052A7FD6DC2928701"
+  },
+  {
+    "Path": "source\\tests\\Render-Opening.ps1",
+    "Sha256": "875E9850DBED129232ADA66B74C6EFA1D77ECA4AA435129FADDD406860333004"
+  },
+  {
+    "Path": "source\\tests\\support-opening-entities.txt",
+    "Sha256": "AEF086010EB6898F518F58CF005C5D2B107B711F64EC85D707BB14AA81853675"
+  },
+  {
+    "Path": "source\\tests\\support-opening-example-command-results.txt",
+    "Sha256": "FC1FA57CF9D5B73F58C22267DA0C059C22F24106160EC9D47E0A8A4E2EAB1368"
+  },
+  {
+    "Path": "source\\tests\\support-opening-example-command24.log",
+    "Sha256": "C29E5EFE5AA05C958ACCBB40D839E5D9BAAFD7074AA7F4ACBD464955D7D86F87"
+  },
+  {
+    "Path": "source\\tests\\support-opening-example-command25-results.txt",
+    "Sha256": "FC1FA57CF9D5B73F58C22267DA0C059C22F24106160EC9D47E0A8A4E2EAB1368"
+  },
+  {
+    "Path": "source\\tests\\support-opening-example-command25.log",
+    "Sha256": "066661F288CA3E6D79079CC742CD664D81E0AFFBC6D7DC358CBC77DE49797615"
+  },
+  {
+    "Path": "source\\tests\\support-opening-example.dwg",
+    "Sha256": "693A7D1E6078EB09FED3B7FDED19B3C8098069C59A42CA6AB3D6E223CC802801"
+  },
+  {
+    "Path": "source\\tests\\support-opening-preview.png",
+    "Sha256": "A73E4C493830610F4DEAEC30F49F430B94AB40EF858A9DF718F9198D243CEE79"
+  },
+  {
+    "Path": "source\\tests\\SupportOpeningChecks.cs",
+    "Sha256": "BBD42B660AE58A0F10B3796FDBF0A3A190D8E4FA5C7153714B04132E12E019FC"
+  },
+  {
+    "Path": "source\\tests\\VerticalAnchorageChecks.cs",
+    "Sha256": "E0A6CA7DD62E61F4862950937344C46FCDF9AF4AEAC59A038FBA907030EC9AD0"
+  }
+]

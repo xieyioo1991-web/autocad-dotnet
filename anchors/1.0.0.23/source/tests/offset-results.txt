@@ -1,0 +1,15 @@
+PASS rectangle 1000x600 -> 900x500, 50 offset
+PASS clockwise and large translated coordinates
+PASS rotated rectangle, non-template dimensions
+PASS concave L shape
+PASS shared edges merged before offset
+PASS support at end subtracted
+PASS support strip splits two material regions
+PASS open contour rejected
+PASS narrow region rejected
+PASS support island rejected
+PASS two rectangles touching only at a corner
+PASS screenshot topology: ledge and beam cap meet at one corner after removing supports
+PASS point contact with support crosses and labels, tagged and legacy drawings
+INFO sample boundaries=1 bars=1
+PASS actual architectural sample plus two supports

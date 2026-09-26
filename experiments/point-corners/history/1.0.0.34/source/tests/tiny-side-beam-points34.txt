@@ -1,0 +1,4 @@
+bars-unchanged=true
+dots=0
+((-1 . <图元名: 24a426cc820>) (0 . "LAYER") (330 . <图元名: 24a426ce820>) (5 . "7A") (100 . "AcDbSymbolTableRecord") (100 . "AcDbLayerTableRecord") (2 . "S-REIN-POINT") (70 . 0) (62 . 30) (6 . "Continuous") (290 . 1) (370 . -3) (390 . <图元名: 24a426ce8f0>) (347 . <图元名: 24a426cea10>) (348 . <图元名: 0>))
+repeat-dots=0

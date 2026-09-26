@@ -1,0 +1,16 @@
+{
+  "Version": "1.0.0.41",
+  "DimensionCount": 17,
+  "RebarCount": 4,
+  "PointCount": 26,
+  "AxisCount": 2,
+  "TitleCount": 1,
+  "ReferenceReadErrors": 0,
+  "DllSHA256": "CEDE373DD7A36A9124F849478A3D73A8AA75F4819C41A6A3C49C686C1E3524BF",
+  "Baseline40SHA256": "3446A1F1B9D83A52125A1C7DDEC88EFE66B41FB91A7044F780E02B4D95D6DF99",
+  "RegressionPassed": 194,
+  "NativeVariantsPassed": 3,
+  "TitleAssertionsPassed": 9,
+  "RollbackAndCopyPassed": 2,
+  "AwaitingUserAcceptance": true
+}

@@ -1,0 +1,1 @@
+PASS SD_AUTO_DETAIL: source DWG plus two supplied SD-REGION boundaries, scale4, role/layer/width/text and no reinforcement

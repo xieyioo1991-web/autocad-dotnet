@@ -1,0 +1,896 @@
+{
+  "SchemaVersion": 1,
+  "Stage": "尺寸标注、标高、轴线与图名：参考样式读取，生成规则待定",
+  "SourceFile": "实例1：结构大样(最终完成目标).dwg",
+  "Verification": {
+    "ReferencePath": "C:/Users/Administrator/Desktop/实例1：结构大样(最终完成目标).dwg",
+    "SnapshotHashAtCopy": "E855B23FAB6E3B59D9F8BFF55B40502C25A919063EB23D439853427587644070",
+    "OriginalHashAfterAudit": "E855B23FAB6E3B59D9F8BFF55B40502C25A919063EB23D439853427587644070",
+    "OriginalUnchangedDuringSnapshotAudit": true,
+    "SnapshotHashAfterAudit": "F27CF671B34CEEDEA6A729E73694D84560BCC09EB9051D480B5904182CB810F4",
+    "EntityCount": 73,
+    "ReadErrors": 0
+  },
+  "DrawingUnits": "四倍结构图中的模型空间数值；不得再次乘4",
+  "GlobalLtscale": 1000,
+  "CurrentDatabaseDimensionStyleIsNotTheReference": {
+    "Handle": "34",
+    "Name": "STANDARD"
+  },
+  "Dimensions": {
+    "Style": {
+      "Dimblk2": {
+        "Handle": "0",
+        "Name": ""
+      },
+      "Dimblk1": {
+        "Handle": "0",
+        "Name": ""
+      },
+      "Dimblk": {
+        "Handle": "3E",
+        "Name": "_ArchTick"
+      },
+      "Dimfxlen": 1,
+      "DimfxlenOn": false,
+      "Dimpost": "",
+      "Dimapost": "",
+      "Dimzin": 0,
+      "Dimupt": false,
+      "Dimtzin": 0,
+      "Dimtxtdirection": false,
+      "Dimtxt": 300,
+      "Dimtxsty": {
+        "Handle": "3D",
+        "Name": "TSSD_Rein"
+      },
+      "Dimtvp": 0,
+      "Dimtsz": 0,
+      "Dimtp": 0,
+      "Dimtolj": 1,
+      "Dimtol": false,
+      "Dimtoh": false,
+      "Dimtofl": true,
+      "Dimtmove": 2,
+      "Dimtm": 0,
+      "Dimtix": true,
+      "Dimtih": false,
+      "Dimtfillclr": {
+        "Method": "ByBlock",
+        "Index": 0,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 0
+      },
+      "Dimtfill": 0,
+      "Dimtfac": 1,
+      "Dimtdec": 0,
+      "Dimtad": 1,
+      "Dimsoxd": false,
+      "Dimse2": false,
+      "Dimse1": false,
+      "Dimsd2": false,
+      "Dimsd1": false,
+      "Dimscale": 1,
+      "Dimsah": false,
+      "Dimrnd": 5,
+      "Dimlwe": "ByBlock",
+      "Dimlwd": "ByBlock",
+      "Dimlunit": 2,
+      "Dimltype": {
+        "Handle": "0",
+        "Name": ""
+      },
+      "Dimltex2": {
+        "Handle": "0",
+        "Name": ""
+      },
+      "Dimltex1": {
+        "Handle": "0",
+        "Name": ""
+      },
+      "Dimlim": false,
+      "Dimlfac": 0.25,
+      "Dimldrblk": {
+        "Handle": "0",
+        "Name": ""
+      },
+      "Dimjust": 0,
+      "Dimjogang": 0.7853981633974483,
+      "Dimgap": 100,
+      "Dimfrac": 0,
+      "Dimexo": 200,
+      "Dimexe": 100,
+      "Dimdsep": ".",
+      "Dimdli": 0,
+      "Dimdle": 100,
+      "Dimdec": 0,
+      "Dimclrt": {
+        "Method": "ByAci",
+        "Index": 140,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 140
+      },
+      "Dimclre": {
+        "Method": "ByAci",
+        "Index": 190,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 190
+      },
+      "Dimclrd": {
+        "Method": "ByAci",
+        "Index": 190,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 190
+      },
+      "Dimcen": 0,
+      "Dimazin": 0,
+      "Dimaunit": 0,
+      "Dimatfit": 3,
+      "Dimasz": 80,
+      "Dimarcsym": 0,
+      "Dimaltz": 0,
+      "Dimaltu": 2,
+      "Dimalttz": 0,
+      "Dimalttd": 2,
+      "Dimaltrnd": 0,
+      "Dimaltf": 25.4,
+      "Dimaltd": 2,
+      "Dimalt": false,
+      "Dimadec": 0,
+      "Name": "TSSD_25_100"
+    },
+    "Instances": [
+      {
+        "Handle": "C7",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 879.9999978027772,
+        "DimensionMeasurement": 219.9999994506943,
+        "DisplayedText": "220",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "D6",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 120.0000016936101,
+        "DimensionMeasurement": 30.000000423402525,
+        "DisplayedText": "30",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "E5",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 79.99999830662273,
+        "DimensionMeasurement": 19.999999576655682,
+        "DisplayedText": "20",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "F4",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 240.00000217743218,
+        "DimensionMeasurement": 60.000000544358045,
+        "DisplayedText": "60",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "101",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 1960.000007301569,
+        "DimensionMeasurement": 490.00000182539225,
+        "DisplayedText": "490",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "10E",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 479.99999998509884,
+        "DimensionMeasurement": 119.99999999627471,
+        "DisplayedText": "120",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "11B",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 759.999998614192,
+        "DimensionMeasurement": 189.999999653548,
+        "DisplayedText": "190",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "128",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 2039.9999914169312,
+        "DimensionMeasurement": 509.9999978542328,
+        "DisplayedText": "510",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "135",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 680.0000071078539,
+        "DimensionMeasurement": 170.00000177696347,
+        "DisplayedText": "170",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      },
+      {
+        "Handle": "142",
+        "Layer": "S-DIM",
+        "Style": "TSSD_25_100",
+        "ProjectedDrawingLength": 120.0,
+        "DimensionMeasurement": 30,
+        "DisplayedText": "30",
+        "Dimscale": 1,
+        "Dimlfac": 0.25,
+        "Dimtxt": 300,
+        "Dimtxsty": "TSSD_Rein",
+        "Dimrnd": 5,
+        "Dimdec": 0
+      }
+    ],
+    "TextStyle": {
+      "BigFontFileName": "hztxt.shx",
+      "FileName": "tssdeng.shx",
+      "FlagBits": 0,
+      "ObliquingAngle": 0,
+      "XScale": 0.7,
+      "TextSize": 0,
+      "IsVertical": false,
+      "Name": "TSSD_Rein"
+    },
+    "Layer": {
+      "LineWeight": "LineWeight000",
+      "IsPlottable": true,
+      "LinetypeObjectId": {
+        "Handle": "13",
+        "Name": "CONTINUOUS"
+      },
+      "Color": {
+        "Method": "ByAci",
+        "Index": 3,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 3
+      },
+      "IsOff": false,
+      "IsFrozen": false,
+      "Name": "S-DIM"
+    }
+  },
+  "Elevation": {
+    "Entities": [
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "CONTINUOUS",
+        "Layer": "DIM_ELEV",
+        "Color": {
+          "Method": "ByLayer",
+          "Index": 256,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0
+        },
+        "Annotative": "NotApplicable",
+        "Handle": "8E",
+        "Type": "Polyline",
+        "Geometry": {
+          "NumberOfVertices": 4,
+          "ConstantWidth": 0,
+          "Elevation": 0,
+          "Closed": false
+        },
+        "Vertices": [
+          {
+            "X": 669216.7068961295,
+            "Y": 203705.1780582352,
+            "Bulge": 0,
+            "StartWidth": 0,
+            "EndWidth": 0
+          },
+          {
+            "X": 669516.7068808707,
+            "Y": 203405.17806777195,
+            "Bulge": 0,
+            "StartWidth": 0,
+            "EndWidth": 0
+          },
+          {
+            "X": 669816.7068808707,
+            "Y": 203705.1780582352,
+            "Bulge": 0,
+            "StartWidth": 0,
+            "EndWidth": 0
+          },
+          {
+            "X": 668303.1428549918,
+            "Y": 203705.1780582352,
+            "Bulge": 0,
+            "StartWidth": 0,
+            "EndWidth": 0
+          }
+        ]
+      },
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "CONTINUOUS",
+        "Layer": "DIM_ELEV",
+        "Color": {
+          "Method": "ByLayer",
+          "Index": 256,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0
+        },
+        "Annotative": "NotApplicable",
+        "Handle": "92",
+        "Type": "Line",
+        "Geometry": {
+          "Length": 781.6952939629555,
+          "EndPoint": {
+            "X": 669998.4021900925,
+            "Y": 203405.17806777195,
+            "Z": 0
+          },
+          "StartPoint": {
+            "X": 669216.7068961295,
+            "Y": 203405.17806777195,
+            "Z": 0
+          }
+        }
+      },
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "BYLAYER",
+        "Layer": "DIM_ELEV",
+        "Color": {
+          "Method": "ByAci",
+          "Index": 7,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 7
+        },
+        "Annotative": "False",
+        "Handle": "93",
+        "Type": "DBText",
+        "Text": {
+          "VerticalMode": "TextTop",
+          "HorizontalMode": "TextLeft",
+          "IsMirroredInY": false,
+          "IsMirroredInX": false,
+          "TextStyleId": {
+            "Handle": "94",
+            "Name": "CADReader_TextStyle"
+          },
+          "TextString": "10.150",
+          "WidthFactor": 1,
+          "Height": 244.99999999999997,
+          "Rotation": 0,
+          "Oblique": 0,
+          "AlignmentPoint": {
+            "X": 668303.1428337726,
+            "Y": 203999.1780582678,
+            "Z": 0
+          },
+          "Position": {
+            "X": 668303.1428337726,
+            "Y": 203754.1780582678,
+            "Z": 0
+          }
+        }
+      }
+    ],
+    "Layer": {
+      "LineWeight": "ByLineWeightDefault",
+      "IsPlottable": true,
+      "LinetypeObjectId": {
+        "Handle": "13",
+        "Name": "CONTINUOUS"
+      },
+      "Color": {
+        "Method": "ByAci",
+        "Index": 3,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 3
+      },
+      "IsOff": false,
+      "IsFrozen": false,
+      "Name": "DIM_ELEV"
+    },
+    "TextStyle": {
+      "BigFontFileName": "gbcbig.shx",
+      "FileName": "tssdeng.shx",
+      "FlagBits": 0,
+      "ObliquingAngle": 0,
+      "XScale": 1,
+      "TextSize": 0.2,
+      "IsVertical": false,
+      "Name": "CADReader_TextStyle"
+    },
+    "SymbolWidth": 600,
+    "SymbolHeight": 300,
+    "ValueSourceRule": "未定义，10.150为样例文字，不能作为所有新图的标高值"
+  },
+  "Axis": {
+    "Entities": [
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "BYLAYER",
+        "Layer": "S-AXIS-COLU",
+        "Color": {
+          "Method": "ByLayer",
+          "Index": 256,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0
+        },
+        "Annotative": "NotApplicable",
+        "Handle": "8A",
+        "Type": "Line",
+        "Geometry": {
+          "Length": 8738.144236043096,
+          "EndPoint": {
+            "X": 678736.5464261356,
+            "Y": 203405.17806777195,
+            "Z": 0
+          },
+          "StartPoint": {
+            "X": 669998.4021900925,
+            "Y": 203405.17806777195,
+            "Z": 0
+          }
+        }
+      }
+    ],
+    "Layer": {
+      "LineWeight": "ByLineWeightDefault",
+      "IsPlottable": true,
+      "LinetypeObjectId": {
+        "Handle": "8C",
+        "Name": "CENTER"
+      },
+      "Color": {
+        "Method": "ByAci",
+        "Index": 253,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 253
+      },
+      "IsOff": false,
+      "IsFrozen": false,
+      "Name": "S-AXIS-COLU"
+    },
+    "Linetype": {
+      "NumDashes": 4,
+      "PatternLength": 2,
+      "AsciiDescription": "Center ____ _ ____ _ ____ _ ____ _ ____ _ ____",
+      "Name": "CENTER",
+      "Dashes": [
+        {
+          "Length": 1.25
+        },
+        {
+          "Length": -0.25
+        },
+        {
+          "Length": 0.25
+        },
+        {
+          "Length": -0.25
+        }
+      ]
+    },
+    "AxisNumberSamplePresent": false,
+    "NumberRule": "样例无独立轴号，不能复用图名编号1充当轴号"
+  },
+  "Title": {
+    "Entities": [
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "BYLAYER",
+        "Layer": "S-TEXT-2",
+        "Color": {
+          "Method": "ByLayer",
+          "Index": 256,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0
+        },
+        "Annotative": "False",
+        "Handle": "160",
+        "Type": "DBText",
+        "Text": {
+          "VerticalMode": "TextBase",
+          "HorizontalMode": "TextLeft",
+          "IsMirroredInY": false,
+          "IsMirroredInX": false,
+          "TextStyleId": {
+            "Handle": "162",
+            "Name": "FY_HT"
+          },
+          "TextString": "檐口大样图",
+          "WidthFactor": 0.8,
+          "Height": 500,
+          "Rotation": 0,
+          "Oblique": 0,
+          "AlignmentPoint": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Position": {
+            "X": 673430.6732405857,
+            "Y": 199696.11081963405,
+            "Z": 0
+          }
+        }
+      },
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "BYLAYER",
+        "Layer": "S-TEXT-2",
+        "Color": {
+          "Method": "ByLayer",
+          "Index": 256,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0
+        },
+        "Annotative": "NotApplicable",
+        "Handle": "163",
+        "Type": "Polyline",
+        "Geometry": {
+          "NumberOfVertices": 2,
+          "ConstantWidth": 70,
+          "Elevation": 0,
+          "Closed": false
+        },
+        "Vertices": [
+          {
+            "X": 673175.4726783796,
+            "Y": 199468.34710675105,
+            "Bulge": 0,
+            "StartWidth": 70,
+            "EndWidth": 70
+          },
+          {
+            "X": 676328.5295986389,
+            "Y": 199468.34710675105,
+            "Bulge": 0,
+            "StartWidth": 70,
+            "EndWidth": 70
+          }
+        ]
+      },
+      {
+        "LineWeight": "ByLayer",
+        "Visible": true,
+        "LinetypeScale": 1,
+        "Linetype": "BYLAYER",
+        "Layer": "S-OTHER-THIN",
+        "Color": {
+          "Method": "ByLayer",
+          "Index": 256,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0
+        },
+        "Annotative": "False",
+        "Handle": "164",
+        "Type": "BlockReference",
+        "Block": {
+          "Name": "ts_idx1",
+          "DynamicBlockTableRecord": {
+            "Handle": "165",
+            "Name": "ts_idx1"
+          },
+          "IsDynamicBlock": false,
+          "Rotation": 0,
+          "ScaleFactors": {
+            "X": 1399.9999720000003,
+            "Y": 1399.9999720000003,
+            "Z": 1399.9999720000003
+          },
+          "Position": {
+            "X": 672546.8822300066,
+            "Y": 199913.73878322006,
+            "Z": 0
+          },
+          "BlockTableRecord": {
+            "Handle": "165",
+            "Name": "ts_idx1"
+          }
+        },
+        "Attributes": [
+          {
+            "Tag": "1",
+            "TextStyleId": {
+              "Handle": "168",
+              "Name": "TSSD_Num"
+            },
+            "TextString": "1",
+            "WidthFactor": 0.7,
+            "Height": 840,
+            "Rotation": 0,
+            "Position": {
+              "X": 672399.8822300066,
+              "Y": 199493.73878322006,
+              "Z": 0
+            }
+          }
+        ]
+      }
+    ],
+    "Block": {
+      "Name": "ts_idx1",
+      "Entities": [
+        {
+          "LineWeight": "ByBlock",
+          "Visible": true,
+          "LinetypeScale": 1,
+          "Linetype": "BYBLOCK",
+          "Layer": "0",
+          "Color": {
+            "Method": "ByBlock",
+            "Index": 0,
+            "Red": 0,
+            "Green": 0,
+            "Blue": 0
+          },
+          "Annotative": "False",
+          "Handle": "167",
+          "Type": "AttributeDefinition",
+          "Text": {
+            "VerticalMode": "TextVerticalMid",
+            "HorizontalMode": "TextCenter",
+            "IsMirroredInY": false,
+            "IsMirroredInX": false,
+            "TextStyleId": {
+              "Handle": "168",
+              "Name": "TSSD_Num"
+            },
+            "TextString": "A",
+            "WidthFactor": 0.7,
+            "Height": 0.6,
+            "Rotation": 0,
+            "Oblique": 0,
+            "AlignmentPoint": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "Position": {
+              "X": -0.12923076923076926,
+              "Y": -0.3,
+              "Z": 0
+            }
+          }
+        },
+        {
+          "LineWeight": "ByBlock",
+          "Visible": true,
+          "LinetypeScale": 1,
+          "Linetype": "BYBLOCK",
+          "Layer": "0",
+          "Color": {
+            "Method": "ByBlock",
+            "Index": 0,
+            "Red": 0,
+            "Green": 0,
+            "Blue": 0
+          },
+          "Annotative": "NotApplicable",
+          "Handle": "169",
+          "Type": "Polyline",
+          "Geometry": {
+            "NumberOfVertices": 2,
+            "ConstantWidth": 0.04,
+            "Elevation": 0,
+            "Closed": true
+          },
+          "Vertices": [
+            {
+              "X": -0.5,
+              "Y": 0,
+              "Bulge": 1,
+              "StartWidth": 0.04,
+              "EndWidth": 0.04
+            },
+            {
+              "X": 0.5,
+              "Y": 0,
+              "Bulge": 1,
+              "StartWidth": 0.04,
+              "EndWidth": 0.04
+            }
+          ]
+        }
+      ]
+    },
+    "TextStyles": [
+      {
+        "BigFontFileName": "hztxt.shx",
+        "FileName": "tssdeng.shx",
+        "FlagBits": 0,
+        "ObliquingAngle": 0,
+        "XScale": 0.7,
+        "TextSize": 0,
+        "IsVertical": false,
+        "Name": "TSSD_Num"
+      },
+      {
+        "BigFontFileName": "",
+        "FileName": "simhei.ttf",
+        "FlagBits": 0,
+        "ObliquingAngle": 0,
+        "XScale": 0.8,
+        "TextSize": 0,
+        "IsVertical": false,
+        "Name": "FY_HT"
+      }
+    ],
+    "Layers": [
+      {
+        "LineWeight": "ByLineWeightDefault",
+        "IsPlottable": true,
+        "LinetypeObjectId": {
+          "Handle": "13",
+          "Name": "CONTINUOUS"
+        },
+        "Color": {
+          "Method": "ByAci",
+          "Index": 3,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 3
+        },
+        "IsOff": false,
+        "IsFrozen": false,
+        "Name": "S-TEXT-2"
+      },
+      {
+        "LineWeight": "ByLineWeightDefault",
+        "IsPlottable": true,
+        "LinetypeObjectId": {
+          "Handle": "13",
+          "Name": "CONTINUOUS"
+        },
+        "Color": {
+          "Method": "ByAci",
+          "Index": 3,
+          "Red": 0,
+          "Green": 0,
+          "Blue": 3
+        },
+        "IsOff": false,
+        "IsFrozen": false,
+        "Name": "S-OTHER-THIN"
+      }
+    ],
+    "NumberCircleCenterlineDiameter": 1400,
+    "NumberCirclePolylineWidth": 56,
+    "NumberTextHeight": 840,
+    "TitleTextHeight": 500,
+    "UnderlinePolylineWidth": 70
+  },
+  "SupplementalNote": [
+    {
+      "LineWeight": "ByLayer",
+      "Visible": true,
+      "LinetypeScale": 1,
+      "Linetype": "BYLAYER",
+      "Layer": "S-TEXT-3",
+      "Color": {
+        "Method": "ByBlock",
+        "Index": 0,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 0
+      },
+      "Annotative": "False",
+      "Handle": "15E",
+      "Type": "DBText",
+      "Text": {
+        "VerticalMode": "TextVerticalMid",
+        "HorizontalMode": "TextCenter",
+        "IsMirroredInY": false,
+        "IsMirroredInX": false,
+        "TextStyleId": {
+          "Handle": "45",
+          "Name": "TSSD_Dimension"
+        },
+        "TextString": "未注明的分布点筋均为%%1328",
+        "WidthFactor": 0.7,
+        "Height": 400,
+        "Rotation": 0,
+        "Oblique": 0,
+        "AlignmentPoint": {
+          "X": 674924.8635497275,
+          "Y": 199064.38797068218,
+          "Z": 0
+        },
+        "Position": {
+          "X": 673313.6339918837,
+          "Y": 198864.38797068218,
+          "Z": 0
+        }
+      }
+    }
+  ],
+  "RequiredFonts": [
+    "tssdeng.shx",
+    "hztxt.shx",
+    "gbcbig.shx",
+    "simhei.ttf"
+  ],
+  "ImplementationStatus": "仅诊断工具和样式记录；生产源码和DLL未修改，无新锚点"
+}

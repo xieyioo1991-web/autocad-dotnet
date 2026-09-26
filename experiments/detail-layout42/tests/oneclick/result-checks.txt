@@ -1,0 +1,47 @@
+OK actual command generated dimensions
+OK architectural selection inherited two axes
+OK architectural axis positions scaled exactly four
+OK architectural elevation value 10.200 preserved
+OK four bars and 26 dots unchanged from 41
+OK one specification leader per complete bar
+OK support labels only generated once
+OK one native title
+OK all main horizontal dimensions share one line
+OK all main vertical dimensions share one line
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK reference native dimension style
+OK dimension value follows actual contour
+OK fixed dimension lines do not cross other text
+OK dimension glyphs do not overlap dimension lines
+OK all native text extents separated
+OK repeat dimension command replaces annotations without duplicates
+OK repeat preserves geometry
+OK repeat preserves all dimension line positions and measuring points
+PASS

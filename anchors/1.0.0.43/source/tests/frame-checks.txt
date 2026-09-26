@@ -1,0 +1,1 @@
+PASS one complete annotation pipeline succeeds inside empty surrounding frame; frame unchanged

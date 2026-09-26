@@ -1,0 +1,10 @@
+OK title group contains four native entities
+OK literal title and height
+OK underline width
+OK index 1 and actual height
+OK attribute moves with title circle
+OK axis number space reserved
+OK reference dimension scale retained
+OK model space rollback
+OK native import rollback
+PASS

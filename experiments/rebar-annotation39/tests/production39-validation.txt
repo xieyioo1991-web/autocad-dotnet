@@ -1,0 +1,1 @@
+PASS native command: one leader/text per bar + support, finite source contacts, measured text/leader avoidance

@@ -1,0 +1,2 @@
+PASS: source DWG extraction; 4x contour matching; roof adaptation; wrong scale/empty/multiple rejection; native 7 bars/23 solid dots; width 35; outer diameter 100; vertex placement; duplicate guard; exact reference coordinates.
+Output: example1-rebar-check.dwg

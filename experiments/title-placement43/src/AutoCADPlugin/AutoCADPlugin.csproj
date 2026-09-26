@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AutoCADPlugin</RootNamespace>
+    <AssemblyName>AutoCADPlugin</AssemblyName>
+    <Version>1.0.0.43</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AutoCADInstallDir Condition="'$(AutoCADInstallDir)' == ''">D:\Program Files\Autodesk\AutoCAD 2020</AutoCADInstallDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="../../assets/Fonts/*.shx" Link="Fonts/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../assets/ReferenceStyle.dwg" Link="ReferenceStyle.dwg" CopyToOutputDirectory="PreserveNewest" />
+    <Reference Include="AcCoreMgd">
+      <HintPath>$(AutoCADInstallDir)\accoremgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>$(AutoCADInstallDir)\acdbmgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>$(AutoCADInstallDir)\acmgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <Target Name="PublishVersionedPlugin" AfterTargets="Build" Condition="'$(DesignTimeBuild)' != 'true' and '$(SkipPluginPublish)' != 'true'">
+    <Exec Command="powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\..\..\scripts\Publish-Plugin.ps1&quot; -SourceDll &quot;$(TargetPath)&quot; -OutputDirectory &quot;$(MSBuildProjectDirectory)\..\..\artifacts\$(Configuration)&quot;" />
+  </Target>
+</Project>
+
+
+
+

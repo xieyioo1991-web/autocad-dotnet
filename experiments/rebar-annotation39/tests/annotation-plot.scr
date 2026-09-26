@@ -1,0 +1,6 @@
+(setvar "SECURELOAD" 0)
+(setvar "BACKGROUNDPLOT" 0)
+(command "NETLOAD" "D:/AnsysTemp/AnnotationChecks39.dll")
+SD_PLOT_ANNOTATION39
+QUIT
+N

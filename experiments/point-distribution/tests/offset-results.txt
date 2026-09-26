@@ -1,0 +1,173 @@
+PASS rectangle 1000x600 -> 900x500, 50 offset
+PASS clockwise and large translated coordinates
+PASS rotated rectangle, non-template dimensions
+PASS concave L shape
+PASS shared edges merged before offset
+PASS support at end subtracted
+PASS support strip splits two material regions
+PASS open contour rejected
+PASS narrow region rejected
+PASS support island rejected
+PASS two rectangles touching only at a corner
+PASS screenshot topology: ledge and beam cap meet at one corner after removing supports
+PASS point contact with support crosses and labels, tagged and legacy drawings
+PASS no supports: closed offset retained
+PASS sub-tolerance vertex drift: side support still opens
+PASS end support: cap removed, endpoints unchanged
+PASS supports at both ends: two separate straight bars
+PASS partial support contact: remove only shared span
+PASS two separated contacts on one side: no connecting segment
+PASS nearby support and point contact do not open rebar
+PASS rotated, mirrored and translated partial contact
+PASS sloped shared edge: only its offset cap removed
+PASS screenshot-style eave and roof: two open polylines, native DWG, duplicate protection
+PASS anchorage: 1000 measured from support face, not old end
+PASS anchorage: exact 400 remainder bends, above 400 stays straight
+PASS anchorage: trial straight outside support becomes 800+400 bend
+PASS anchorage: choose lower side when it has more room
+PASS anchorage: tie bends down
+PASS anchorage: prefer down even when upper space is larger; exactly400 fits
+PASS anchorage: down399.9 falls back upwards
+PASS anchorage: 800 cannot fit, preserve failed end without extension
+PASS anchorage: 400 bend cannot fit on either side
+PASS anchorage: one failed end preserves old endpoint, other end still anchors
+PASS anchorage: bends do not run along opposite boundary
+PASS anchorage: do not jump to distant lobe of concave support
+PASS anchorage: bend tip inside but middle crosses void is rejected
+PASS anchorage: unrelated second support cannot supply missing depth
+PASS anchorage: closed paths unchanged, no fictitious anchor ends
+PASS anchorage: rotated/mirrored/translated/reversed path
+PASS anchorage: partial contact parallel end reports failure, no remote attachment
+PASS corner: concave L cut continues both directions, hits opposite bars at 300
+PASS corner: wide L extends full 400, convex corners stay bent
+PASS corner: rectangle has no cuts
+PASS corner: non-right concavity remains connected
+PASS corner: reversed rotated mirrored large coordinates and vertex zero
+PASS corner: drawing noise accepted but 89-degree corner not changed
+PASS corner: two concave cuts split closed U into two open bars
+PASS corner: anchored open path splits once, preserves both existing anchor tips
+PASS collision: nearest bar wins, exact 400 hits, beyond 400 ignored
+PASS collision: endpoints and collinear segments stop, behind and parallel do not
+PASS collision: crossing new extensions stop later arrival, independent of order
+PASS collision: equal-distance crossing and head-on meeting stop both
+PASS collision: trimmed-away proposal cannot stop another extension
+PASS collision: head-on meeting recomputed after one end stops early
+PASS corner: native inset L breaks at inset coordinate and reaches opposite bar
+PASS corner size: 120/120 and 599.99/600 remain bent
+PASS corner size: either side >600 qualifies at one decimal precision
+PASS corner size: exact 600 and threshold remain correct after rotate/mirror/reverse/translate
+PASS corner size: 600 source side grows to 700 after inset, still do not cut
+PASS corner size: qualifying 610 source side shortens below 600 after inset, still cut
+PASS corner size: collinear subdivisions count as one 700 side
+PASS corner size: real turn ends side, unrelated long edge does not qualify
+PASS beam top: standalone upright becomes one inverted U, no remaining ordinary region
+PASS beam top: unequal sides level at higher top before inset, short leg extended upwards
+PASS beam top: opposite higher side, reflection and vertex order do not slope U
+PASS beam top: narrower offset upright merges actual polygons, not bounding boxes
+PASS beam top: horizontal floor slab never triggers U
+PASS beam top: detached overhead region and point-only contact do not trigger U
+PASS beam top: exact1000 fits without400 reserve,999.9 aborts instead of bending
+PASS beam top: detached taller contour on same X cannot raise connected stem
+PASS beam top: inclined sides are not WCS vertical stems
+PASS beam top: fixed U stops ordinary corner extension without being split
+PASS beam top: concave beam void blocks straight anchorage even when tip is inside
+PASS beam top: width100 or height40 cannot contain inset U
+PASS beam top: side branch anchors inside merged upper area and bends across former beam top
+PASS beam top: roof extends sideways and uneven stem still yields horizontal U
+PASS beam top: two beams and two narrow stems on one beam stay distinct
+PASS beam top: translated large coordinates, split vertical lines and micro drift
+PASS beam top: generated entities are only native magenta width35 polylines, repeat rejected
+PASS vertical anchor: right entry bends at U inner40, vertical800 not perpendicular
+PASS vertical anchor: top entry crosses far leg guide, no800 lead prerequisite
+PASS vertical anchor: left entry inward direction is right, not outline side
+PASS vertical anchor: special rule precedes even a spacious1000 straight anchor
+PASS vertical anchor: horizontal90 and vertical straight remain ordinary
+PASS vertical anchor: acute inclined entry is not captured by obtuse rule
+PASS vertical anchor: exact800 fits,799.9 keeps original end
+PASS vertical anchor: direct beam without U uses outline50, not90
+PASS vertical anchor: floor slab keeps ordinary rules
+PASS vertical anchor: unrelated beam guide cannot supply a turn
+PASS vertical anchor:800 cannot cross concave void even if tip is inside
+PASS vertical anchor: do not follow forward slope beyond first exit to a guide
+PASS vertical anchor: too narrow U cannot cross its40 guides
+PASS vertical anchor: reversed path and large translated coordinates
+PASS beam side: upper forced800+400 despite space for1000, lower straight600
+PASS beam side: right face, reversed outline and large coordinates
+PASS beam side: lower600 fits narrow beam, upper800 reports failure
+PASS beam side: lower599.9 cannot fit600, never bends or shortens
+PASS beam side: lower600 exact boundary,599.99 accepted with0.1 precision without overshoot
+PASS beam side: upper bends upward only when down400 is unavailable
+PASS beam side: two separate regions on same beam pair independently
+PASS beam side unit: one region with two disjoint contacts pairs finite spans
+PASS beam side unit: unmatched horizontal ends from different regions never pair
+PASS beam side: support and contour collinear subdivisions preserve a single pair
+PASS beam side: region between two beams has lower600 at both ends
+PASS beam side: inclined bars and floor slab do not form horizontal beam pair
+PASS small side: both contour dimensions599.9 remove lower, upper straight600 and shorter return
+PASS small side: either contour dimension600 retains lower, measure before inset
+PASS small side:599.99 rounds600,599.94 rounds599.9
+PASS small side: full material bounds govern, narrow local neck is not a small region
+PASS small side: mirrored/sloped bottom removed by outline, no artificial anchor on cut
+PASS small side: detached region, point contact and floor slab keep bottom bars
+PASS precision: U999.99 clamps to beam boundary,999.9 fails
+PASS precision: upper bend down399.99 counts as400 and ends at boundary
+PASS native DWG: paired and small beam-side fixtures, only width35 reinforcement
+PASS small33:500x400 upper straight600 from beam face, return300 reduced to250
+PASS small33: mirrored/reversed and large translated coordinates
+PASS small33: upper enters beam extension with600 straight, U unchanged
+PASS small33: beam700 allows600 though800 bend would fail; spacious beam still600
+PASS small33:600 does not fit, upper keeps original cut and reports, no bend
+PASS small33: vertical return <=50 disappears without shortening horizontal bar
+PASS small33: return50.1 leaves0.1 at project precision
+PASS small33: inclined upper follows original direction for straight600
+PASS small33: vertical subdivisions trim by total50 in either traversal order
+PASS small33: inclined free edge and support-facing vertical legs are untouched
+PASS small33: two downward free legs shorten independently, no zero-length polyline
+PASS small33 native DWG: short return retains50, straight upper retained
+PASS dots native writer matches reference polyline and layer, repeat adds zero
+PASS dots rectangle: four circles touch inner width35 edges, exact centers117.5
+PASS dots reversed winding preserves the inside
+PASS dots acute and obtuse corners tangent to finite segments
+PASS dots concave L excludes the reentrant corner
+PASS dots short legs do not use imaginary extended tangency
+PASS dots collinear subdivisions do not lose corner
+PASS dots separate bars with common endpoint form a corner
+PASS dots support exclusion tests disc edge, not just center
+PASS dots third longitudinal bar blocks old points and supplies actual junction corners
+PASS dots close candidate discs do not overlap
+PASS dots beam extension U top allowed, actual beam forbidden
+PASS points35 corner follows moved longitudinal vertex, not architectural corners
+PASS points35 closed longitudinal L rejects its own concavity inside rectangular architecture
+PASS points35 actual crossing without vertices supplies four finite corner sectors
+PASS points35 T junction and unconnected supporting lines differ
+PASS points35 inclined crossing with no shared endpoint
+PASS points35 ordinary bend excluded even outside crossed support; body intersections remain
+PASS points35 vertical bent anchorage contributes neither elbow nor crossing corners
+PASS points35 straight anchorage does not erase ordinary longitudinal corners
+PASS rows36: continuous change of direction is not a free endpoint
+PASS rows36: equal division is minimal count under800, anchors never move
+PASS rows36: closed3000x1000 retains four exact corners, adds six points
+PASS rows36: free endpoint distance is actual400, not axial400
+PASS rows36: fixed head plus support400 gives equal gaps and no support dots
+PASS rows36: inclined row tail is400 perpendicular to vertical support edge
+PASS rows36: internal reentrant crossing reserves red sector only
+PASS rows36: virtual extension is a400 boundary for incoming bars
+PASS rows36: U top fixed, own legs may distribute above actual beam
+PASS rows36: fixed short curb corners preserved even below400, conflict explicit
+PASS rows36: collision does not silently leave an over800 hole
+PASS rows36: selection order and polyline reversal preserve point set
+PASS beam36: inclined stem threshold uses taller vertical side, strict600 with one decimal
+PASS beam36: short nonsloping curb has exactly one U and no virtual support
+PASS beam36: short roof folds at inset intersections then1000 from original beam top
+PASS beam36: short roof insufficient beam depth reports failure without bending
+PASS beam36: detached inclined contour does not disqualify short curb
+PASS beam36: sloping cap inside curb width is not an attached inclined branch
+PASS beam36: native fixtures for short roof, tall roof and small curb
+INFO sample boundaries=2 bars=4 U=1
+INFO corners=1 ends=2 hits=0
+INFO anchors straight=0 bent=1 lower600=1 vertical800=2 failed=0
+PASS actual architectural sample plus two supports
+INFO sample boundaries=2 bars=4 U=1
+INFO corners=1 ends=2 hits=0
+INFO anchors straight=0 bent=1 lower600=1 vertical800=2 failed=0
+PASS actual architectural coordinates, beam top aligned with eave, both interfaces open

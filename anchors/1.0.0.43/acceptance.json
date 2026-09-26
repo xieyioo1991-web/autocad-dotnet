@@ -1,0 +1,21 @@
+{
+  "Version": "1.0.0.43",
+  "AcceptedOn": "2026-09-26",
+  "Kind": "阶段性锚点",
+  "UserConfirmation": "这一版可以作为锚点了 但是还有一些细节问题 我会后面提出来 修复好了之后 我会让版本进入到1.0.1",
+  "PendingDetails": true,
+  "PlannedFutureVersion": "1.0.1",
+  "VersionUpgradeAuthorized": false,
+  "FutureVersionRequiresExplicitUserInstruction": true,
+  "SourceExperiment": "experiments/title-placement43",
+  "ReleaseDllSHA256": "F36E29F59C03C9C38C77CF5FA0692D40A4558AE8A93A8A763F30FA6432A92B50",
+  "HistoricalValidation": "source/tests/validation43.json",
+  "HistoricalAcceptanceFlagsPreserved": true,
+  "SourceCacheExclusions": [
+    "bin",
+    "obj",
+    ".vs"
+  ],
+  "CopiedExperimentFileCount": 136,
+  "RebuiltDuringArchiving": false
+}

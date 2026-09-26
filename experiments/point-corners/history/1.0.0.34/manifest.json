@@ -1,0 +1,398 @@
+[
+  {
+    "Path": "AutoCADPlugin-1.0.0.34.dll",
+    "Sha256": "778244E40EE001A164147303CAD9F08BD6C4E9BEFEE3CBC3FFD021F03C04E611"
+  },
+  {
+    "Path": "AutoCADPlugin-1.0.0.34.pdb",
+    "Sha256": "25571DC50657B2C11130CD6F2BA20F168882C3C85F6EEF79A88063366503ADF3"
+  },
+  {
+    "Path": "source/点筋布置阶段.md",
+    "Sha256": "CE3D198B7B686A4DABFC40F94374BE54FBE568A68CFF6ED9A0CCB0C8DF62EEE2"
+  },
+  {
+    "Path": "source/README.md",
+    "Sha256": "16578D90A2D3C23ED991BC2F0048CD316597D6AF64BC0595023AC719A1CC0E17"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/ArchitecturalOutlineExtractor.cs",
+    "Sha256": "FD76A1CF794BE4FD8FDF3435C7E83CB2D8F20E9CF3AB48B5BB34DD2C5098377C"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/AutoCADPlugin.csproj",
+    "Sha256": "E1EB8C1BABF6A22CD6D0079C786049646CDD9E0DB61A4354CC57725F0B2D4856"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/BeamAnchorGuide.cs",
+    "Sha256": "5A56C6832502F135043768C6269E101BE863946C0B0D5772D2CF1999905FC36F"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/BeamSideRebarRules.cs",
+    "Sha256": "CCD2E23949CB5C462337E70D62DD9CFC5F6518A7622F22916AAFBB752F938092"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/BeamTopRebar.cs",
+    "Sha256": "A2408FE346169E66AD2C6A46EC0D1233FEB44A37455FC25D3C1D552C7866CABF"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/BeamTopRegion.cs",
+    "Sha256": "1E6BEEECAD9919B4FCB8D53A78369F083860ABD51080F44A27C32133F95F5DA7"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/Commands.cs",
+    "Sha256": "F6B56D9E9E906FDE4EB690436A2348983EC4C0D91A12C108D9C3229F3B2A23B7"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/ContourGraph.cs",
+    "Sha256": "EA0CA9902D465200444064575F3A3F23A1EB862F1605D3109D6F5BBF147DD8B6"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/CornerPointRebar.cs",
+    "Sha256": "0B016ECAF990B0EE4AD7F51EF673C51F44D6104B69153AF85E689483785F9A5D"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/DetailWriter.cs",
+    "Sha256": "49B38867C7EBA38F57D7AF78BB6FA5A8AC38C5CEAEA24A43990B669252E68D0F"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/DrawingPrecision.cs",
+    "Sha256": "92C4AF0D0B0E3E562B55783E4AE3D984C48CB8DFFADE9A5EA8326142C0C94774"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/Example1Rebar.cs",
+    "Sha256": "80D7D6404EF7308DE43D0289EF7767DC822A2C1ADD68030DBF7C347E8EFE7E2D"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/Example1RebarData.cs",
+    "Sha256": "24F94A2E9242B12C6FB1C572729C7B0EC8155AD75948743D784A3076401836AA"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/GeometryTools.cs",
+    "Sha256": "3B1D9C364EFC2AA2DDC08DADA8E5220BE21D491BCD2A005AF8CE02D51D326EAE"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/LowerRebarRemoval.cs",
+    "Sha256": "58F868D3075C46A71D83F2E6AFB5160A99940E30AF1BD75BC78B0CB2A70A6239"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/OffsetRebar.cs",
+    "Sha256": "AA7AA865F1102FF15D67020ED6D9E756E9BDFB24891E4B06CEDFA7BCD6FAF788"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/OutlineRole.cs",
+    "Sha256": "ECBA97A7203FA082AA7E5CF6385A73744F68FC75DF09B59E94282B7D58D0B426"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/PointRebarCommands.cs",
+    "Sha256": "BD73D8AB12D9A9A2FD3D9AB2CD631A0C8350D9EDE4765354409F101DD1674212"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/PointRebarWriter.cs",
+    "Sha256": "B92C145036E6DE0E6BCFAB95573F967EED392327C9E85E42B9719D088BAE8FB5"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/PolygonRay.cs",
+    "Sha256": "1C219FE5028A2B580C74506FBF3FBFA86E494205D6533C89B3B0DF458D78C925"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/RebarAnchorage.cs",
+    "Sha256": "FB5160F32DA1F7944B1545199C5A16E0EAC31F68C015FAA96371CEE78067B1DE"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/RebarCornerBreak.cs",
+    "Sha256": "CAFF6FB4789B80CC4204E340AECDA66E4EE5EBCCF63A57067A141D25CC4CD423"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/RebarExtensionCollision.cs",
+    "Sha256": "4090C3B65F27DCF9C4310E0432A9187A80B46177A5ACFC103A0AD52B12220EA1"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/RebarPath.cs",
+    "Sha256": "1DB01AB0EBF90D773D1B8883E728E9B31060F7747F125138687F9F4BD77367EA"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/SmallRegionRebar.cs",
+    "Sha256": "DA4567981101798E1D5A760E83D81BDD6B83AF666C355E958EA8F52C4F6A73E1"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/Standards.cs",
+    "Sha256": "98EFBE2C20AE6BA69E596DA37A7C9CECBFF42BB467719FA1BBA0A24CAACB9C71"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/StructuralPathExtractor.cs",
+    "Sha256": "35F328750CF2CF8C0867EE87CA99DFFF91BFF6113AEF150BD8F987346E9F1F8A"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/SupportClassification.cs",
+    "Sha256": "85E54290927BAD223CDB703D70A7E5E65F99AC58427BFB7D35060DE702A0ED4A"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/SupportContact.cs",
+    "Sha256": "575ACFC59091525A56DD6076588862B07D88CDEA018561D53269A12412D19F72"
+  },
+  {
+    "Path": "source/src/AutoCADPlugin/SupportOpening.cs",
+    "Sha256": "FF1E75CF3C0CB15EA5C418A7D16FE3D1674966050C2D606E955319B4B8C14B46"
+  },
+  {
+    "Path": "source/tests/AnchorageChecks.cs",
+    "Sha256": "53EB600C1373C8B02640FC8BB5C15E6F7141D2C9EC0085682C13AC74182884F5"
+  },
+  {
+    "Path": "source/tests/BeamSideChecks.cs",
+    "Sha256": "214076F76890536EF2B78DAFA6BD715A2CCDAA55F7726EDC596CBCD770C015DC"
+  },
+  {
+    "Path": "source/tests/BeamTopChecks.cs",
+    "Sha256": "133F7A4ADB2ADCAC064C1B878E45093BDAD3EBB186E74ECDCD1CDA7B966D5152"
+  },
+  {
+    "Path": "source/tests/check.scr",
+    "Sha256": "3B65D444E4A208BCE6456E566D00F74B3303B6BAFB9AF4F8A6FFA8FE98BD0909"
+  },
+  {
+    "Path": "source/tests/core34.log",
+    "Sha256": "CC6BC4CB7FD6DB453F6F889BBABC1827393BB0FBCFC5637A685CDB8DD3EA68CA"
+  },
+  {
+    "Path": "source/tests/CornerBreakChecks.cs",
+    "Sha256": "D940B60765A0383092CF8F2EB9D6A181C503C07625077F74DE127988108F71C3"
+  },
+  {
+    "Path": "source/tests/CornerSizeChecks.cs",
+    "Sha256": "D6F2B4CEABDAE9FC7F131F91D62208C3312EE8D2D1B2118015CF69C95361E939"
+  },
+  {
+    "Path": "source/tests/offset-results.txt",
+    "Sha256": "C7C9B417756F668F23AA57336B34D7F340F4DC1DC30C87096EF7E4FFF204B426"
+  },
+  {
+    "Path": "source/tests/offset50-sample-points34-final.dwg",
+    "Sha256": "1B93E01B93BB9FA4A4FF87C77A335437F3E4A9DDC6CAA8B5F963A410876CF52C"
+  },
+  {
+    "Path": "source/tests/offset50-sample-points34-final.log",
+    "Sha256": "2830E6FCD56E24B9C2EE9263E713AEA6503A021F075748831E542FEF50AF5B19"
+  },
+  {
+    "Path": "source/tests/offset50-sample-points34.dwg",
+    "Sha256": "C651FDCC1F20AF2111085B128132FA6BCCCF30DC72562747C49DF7BA5BFD6552"
+  },
+  {
+    "Path": "source/tests/offset50-sample-points34.log",
+    "Sha256": "91CC514184ED697C763B0C5FF15AB1BA149DBC76AA318161E3C4EE9B2953784F"
+  },
+  {
+    "Path": "source/tests/offset50-sample-points34.txt",
+    "Sha256": "C562A0AB25381171853EB2A631BEE57B351B7C2ACD4D006BC4A15FAE17727652"
+  },
+  {
+    "Path": "source/tests/offset50-sample.dwg",
+    "Sha256": "1C465CFB1230DF2A64D35587B7A372667C24874FBCD7A26ADA57A21911832429"
+  },
+  {
+    "Path": "source/tests/OffsetChecks.cs",
+    "Sha256": "AC7B4900B52D867DBCA92C91C5D50D9D506D46059017392A50E58725DFE53DE3"
+  },
+  {
+    "Path": "source/tests/OffsetChecks.csproj",
+    "Sha256": "27FBB1E0222962FDB72180AB8EED4EE0081FE3539BA11A43DB23FBC360B6D0AF"
+  },
+  {
+    "Path": "source/tests/paired-beam-entities.txt",
+    "Sha256": "FB60A42CC0C41D393412B2D0FF82E19C0D6330A2E536B045F4204E060FFD0123"
+  },
+  {
+    "Path": "source/tests/paired-beam-points34-final.dwg",
+    "Sha256": "16CD3FC99715170D1C0661F366FD8EBCFB553D0F6FFECADE4E14F16EA8D0CDCE"
+  },
+  {
+    "Path": "source/tests/paired-beam-points34-final.log",
+    "Sha256": "D2B5B3A66C9B6F35112D7A18AAEB69D85B03AAA4921B9794A371D2CF8AC72CE8"
+  },
+  {
+    "Path": "source/tests/paired-beam-points34.dwg",
+    "Sha256": "055F33A2E3CF1F8DEAF23BE2489D3EC6EEA9BC74505D7551AEAEFF414E16FB22"
+  },
+  {
+    "Path": "source/tests/paired-beam-points34.log",
+    "Sha256": "6862EB10B9BE21ED8EB9C44B001BB36A59D4B998A95ADFFC2B61FBC936BABE9D"
+  },
+  {
+    "Path": "source/tests/paired-beam-points34.txt",
+    "Sha256": "6BD88D5DD77DE8402A3C46DEC4418EED9EA35FF7E513BC1C5B94A40905C621B2"
+  },
+  {
+    "Path": "source/tests/paired-beam.dwg",
+    "Sha256": "214872138669584406AEC6D04AD2F2A13617D447AA4137603A55978218CCEDE5"
+  },
+  {
+    "Path": "source/tests/point-command.scr",
+    "Sha256": "576DEFD480EFF61BC420EAF433684640E3612133F6FFC92ABB648F8BC23BCE55"
+  },
+  {
+    "Path": "source/tests/point-contact-legacy.dwg",
+    "Sha256": "FDFB7805DB0D60757491D506575ECD6C2113691DBB67F97A29B0E3843861AAD1"
+  },
+  {
+    "Path": "source/tests/point-contact-tagged-points34-final.dwg",
+    "Sha256": "3D927B1AECEE3E2F9F41334B0952546E9CDA533D5F1C32C0F65CF3B6B27EF503"
+  },
+  {
+    "Path": "source/tests/point-contact-tagged-points34-final.log",
+    "Sha256": "7FAE155CD6A7795DF80DA2E50080506194B6C8132BB339A09940502D9C3790A3"
+  },
+  {
+    "Path": "source/tests/point-contact-tagged-points34.dwg",
+    "Sha256": "1620178D4FB1C9B1E86BCEEF59A8CE86DE54E14B04E7814F59E5E3C39F99FA2D"
+  },
+  {
+    "Path": "source/tests/point-contact-tagged-points34.log",
+    "Sha256": "853F1D83B258B585037B9720D9F7B12FB2EC679D0A888B5AE38301A27C9FEACB"
+  },
+  {
+    "Path": "source/tests/point-contact-tagged-points34.txt",
+    "Sha256": "B341C55C623F2154F89B1A44782BAF8FADCEC0D9419F53569B66CD1179D4BD32"
+  },
+  {
+    "Path": "source/tests/point-contact-tagged.dwg",
+    "Sha256": "F182E1D14FB2D65FC1154AAAB6554FBC90BC4C110669ABC166177A5A8FA53CD3"
+  },
+  {
+    "Path": "source/tests/PointContactChecks.cs",
+    "Sha256": "28104453D139ABA68EC80618A81122E7ABCC5B0E6CC9D6D2B1E4A894FEB3EEB3"
+  },
+  {
+    "Path": "source/tests/PointCornerChecks.cs",
+    "Sha256": "A18685F0725A01F2CDC132C0F3BF652ABB354DB655ACC5C051AEC9557D1E7CA5"
+  },
+  {
+    "Path": "source/tests/points-preview34.png",
+    "Sha256": "6F695E52AF2B1C8E1B133CE6B6D0DC64A7A9107895A6CF470EFCF6BD19B9E056"
+  },
+  {
+    "Path": "source/tests/precision-interface-entities.txt",
+    "Sha256": "4C157442E1F1FC1F85358C3B5B6B69D9BDFF3984F1A14CD968EE76682E830868"
+  },
+  {
+    "Path": "source/tests/precision-interface-points34-final.dwg",
+    "Sha256": "377FBC81C48538FB260E83BF939BBF1491F9DFE7AE9382F7A948CBBC1BB6B7A8"
+  },
+  {
+    "Path": "source/tests/precision-interface-points34-final.log",
+    "Sha256": "AA9D125F9DFBC0D804BE23C3D7E053FFBADFD4C366912888DE6B5BE8D8F8325A"
+  },
+  {
+    "Path": "source/tests/precision-interface-points34.dwg",
+    "Sha256": "B72EAB0A938648B5F2F3887B4BDE84ADC276E3FD20455C792104848C4E2504F6"
+  },
+  {
+    "Path": "source/tests/precision-interface-points34.log",
+    "Sha256": "B9C028D622C5F38BB6253D101203B19183F39C85585C0D3214DE6CB4F7F0FF9F"
+  },
+  {
+    "Path": "source/tests/precision-interface-points34.txt",
+    "Sha256": "11601AB9D40B31F86AE4CD46ECB8A8E2DFAC37152471340AFF13D4467E7A0388"
+  },
+  {
+    "Path": "source/tests/precision-interface.dwg",
+    "Sha256": "E3A0455CC846F7624A63B6D58F5B6E11B2B178418CE02A2D2745DDDC69B9826F"
+  },
+  {
+    "Path": "source/tests/reference-style.log",
+    "Sha256": "14FCB372BFFF68C48DFC2A918F16D40FDB049F4C80753EB8606BE52F2D427FB0"
+  },
+  {
+    "Path": "source/tests/reference-style.scr",
+    "Sha256": "314F596567B9642BE19956D975A18E56EBCA486A78F9C35589C312492F1DBD9D"
+  },
+  {
+    "Path": "source/tests/reference-style.txt",
+    "Sha256": "DB7F905A32491F8F18395D4AB7A24A25F5E05E439BA0194F9D1F51A2C15C91CD"
+  },
+  {
+    "Path": "source/tests/render-entities.txt",
+    "Sha256": "5EF32B59E8F93865D451F5697174E637686CFF0F0F6E52DF310520D462194996"
+  },
+  {
+    "Path": "source/tests/Render-Points.ps1",
+    "Sha256": "8CC2822A5FF21B3814B6074553C687CE4AA87A867F5821F5CB84F4D333E986F2"
+  },
+  {
+    "Path": "source/tests/small-side-beam-entities.txt",
+    "Sha256": "BE68344C6E708EC16951D88404571D04419DBAF43203C6D91C85ED08BCBF8FBE"
+  },
+  {
+    "Path": "source/tests/small-side-beam-points34-final.dwg",
+    "Sha256": "BED66F021080E8048499571473F003EE0BBDB40BEDCCD86D19FA60AA202937ED"
+  },
+  {
+    "Path": "source/tests/small-side-beam-points34-final.log",
+    "Sha256": "B1EA45205725CF0B2B399410ACAFF528C933712B1AF9DC7A5DB9D89D397FEB15"
+  },
+  {
+    "Path": "source/tests/small-side-beam-points34.dwg",
+    "Sha256": "EDAF3D826763EF2F1111BD2A159203A2E7DD1B5CCB75C5171D687DA46B5F3938"
+  },
+  {
+    "Path": "source/tests/small-side-beam-points34.log",
+    "Sha256": "5B56A388018374EC61E53BB2B5605B6272D2959EAAC3DE8AB592BD013CAE4174"
+  },
+  {
+    "Path": "source/tests/small-side-beam-points34.txt",
+    "Sha256": "05E30F70BA43CB0D8B72559CD60BBC28637D766C44B753BF682F70C5D8D687A7"
+  },
+  {
+    "Path": "source/tests/small-side-beam.dwg",
+    "Sha256": "7C5C48A75161EF25F9B759AF75F95F73CECEFA752AFC8F908BB03805647DB610"
+  },
+  {
+    "Path": "source/tests/SmallRegionChecks.cs",
+    "Sha256": "F0951D6FF059E54EB98E145F128B80F7887699AB7DAD89C4FE412BC0C39D05DB"
+  },
+  {
+    "Path": "source/tests/support-opening-entities.txt",
+    "Sha256": "AEF086010EB6898F518F58CF005C5D2B107B711F64EC85D707BB14AA81853675"
+  },
+  {
+    "Path": "source/tests/support-opening-example.dwg",
+    "Sha256": "D1269943F1D41DFBE9E1CBF124B54BD34109ED3F87DAE2D7A44A130CBE844A10"
+  },
+  {
+    "Path": "source/tests/SupportOpeningChecks.cs",
+    "Sha256": "BBD42B660AE58A0F10B3796FDBF0A3A190D8E4FA5C7153714B04132E12E019FC"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam-entities.txt",
+    "Sha256": "C14DED7E362A72C2BB7866C04854E8B91C743476A089D8771748275E3F75566C"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam-points34-final.dwg",
+    "Sha256": "AD3345FCED13272B3852A98F1A4421DD053618F45E6BA8AC1E73118BEE306018"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam-points34-final.log",
+    "Sha256": "EF873F2D783481C037EBF307B637A8D5D3BEA44ED3AF7B19B116C86C755FD719"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam-points34.dwg",
+    "Sha256": "60B98329AAAEF4E86EFA38BA760AFB00761F3C553E6CC463A5F91B23F2D7A9D9"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam-points34.log",
+    "Sha256": "768D644A64967F66108B3C91A7FC63BA99F353C450C9FD22F9A7AE246173D4CA"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam-points34.txt",
+    "Sha256": "431E44A71566BB6F0054DB049709A68284C2F44D6917AFA59863A94167027BD4"
+  },
+  {
+    "Path": "source/tests/tiny-side-beam.dwg",
+    "Sha256": "60D1E47C99CA48EFFD624E654132F8E82C59F1E9687C4626BAF59580286E1829"
+  },
+  {
+    "Path": "source/tests/VerticalAnchorageChecks.cs",
+    "Sha256": "7B3018D1D074AE228B298A9EA49D26A24A774F360BF7BA1C321ECF96AA47178B"
+  }
+]

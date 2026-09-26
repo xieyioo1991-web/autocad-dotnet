@@ -1,0 +1,4 @@
+OK complete pipeline inside one uncommitted transaction
+OK full pipeline abort leaves original drawing byte-geometry intact
+OK downstream rebar failure rolls back architectural output and guides
+PASS

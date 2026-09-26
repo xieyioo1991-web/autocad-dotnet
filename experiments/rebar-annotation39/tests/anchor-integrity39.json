@@ -1,0 +1,42 @@
+[
+  {
+    "Anchor": "1.0.0.21",
+    "Files": 22,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.23",
+    "Files": 37,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.25",
+    "Files": 51,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.26",
+    "Files": 59,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.30",
+    "Files": 118,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.33",
+    "Files": 183,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.36",
+    "Files": 166,
+    "Valid": true
+  },
+  {
+    "Anchor": "1.0.0.38",
+    "Files": 177,
+    "Valid": true
+  }
+]

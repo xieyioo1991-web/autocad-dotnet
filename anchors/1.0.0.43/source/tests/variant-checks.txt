@@ -1,0 +1,3 @@
+PASS contact38-points: 9 dimensions; 0 local; no fabricated axes or axis numbers
+PASS layout37-u-and-crossings-points37: 10 dimensions; 2 local; no fabricated axes or axis numbers
+PASS tiny-side-beam: 5 dimensions; 0 local; no fabricated axes or axis numbers

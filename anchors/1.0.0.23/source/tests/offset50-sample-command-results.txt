@@ -1,0 +1,3 @@
+new-entities=1
+bars=1
+after-repeat=1

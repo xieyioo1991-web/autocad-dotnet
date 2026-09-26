@@ -1,0 +1,23 @@
+SECURELOAD
+0
+_NETLOAD
+D:\AnsysTemp\AutoCADPlugin-Rebar20.dll
+SD_VERSION
+(setq old (ssget "_X" '((8 . "S-REIN,S-REIN-POINT"))))
+(command "_.ERASE" old "")
+SD_REBAR
+_ALL
+
+(setq bars (ssget "_X" '((8 . "S-REIN"))))
+(setq dots (ssget "_X" '((8 . "S-REIN-POINT"))))
+(setq report (open "D:/AnsysTemp/rebar-command.txt" "w"))
+(write-line (strcat "bars=" (itoa (sslength bars)) " dots=" (itoa (sslength dots))) report)
+(close report)
+SD_REBAR
+_ALL
+
+(setq report (open "D:/AnsysTemp/rebar-command.txt" "a"))
+(write-line (strcat "after repeat=" (itoa (sslength (ssget "_X" '((8 . "S-REIN,S-REIN-POINT")))))) report)
+(close report)
+_QUIT
+_N

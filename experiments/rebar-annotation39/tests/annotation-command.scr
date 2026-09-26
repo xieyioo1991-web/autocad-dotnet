@@ -1,0 +1,24 @@
+(setvar "SECURELOAD" 0)
+(setvar "BACKGROUNDPLOT" 0)
+(command "NETLOAD" "D:/AnsysTemp/AnnotationPlugin39.dll")
+(command "NETLOAD" "D:/AnsysTemp/AnnotationChecks39.dll")
+SD_VERSION
+(setq geom (ssget "_X" '((8 . "S-REIN,S-REIN-POINT"))))
+(setq before nil i 0)
+(if geom (repeat (sslength geom) (setq before (cons (entget (ssname geom i)) before) i (1+ i))))
+SD_REBAR_LABEL
+ALL
+
+SD_REBAR_LABEL
+ALL
+
+(setq after nil i 0)
+(if geom (repeat (sslength geom) (setq after (cons (entget (ssname geom i)) after) i (1+ i))))
+(setq f (open (strcat (getenv "SD_ANNOTATION_TEST_ROOT") "/production39-unchanged.txt") "w"))
+(prin1 (equal before after) f)
+(close f)
+SD_VERIFY_ANNOTATION39
+SD_PLOT_ANNOTATION39
+(command "_.SAVEAS" "2018" (getenv "SD_ANNOTATION_OUTPUT"))
+QUIT
+N

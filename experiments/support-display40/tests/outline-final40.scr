@@ -1,0 +1,23 @@
+(setvar "SECURELOAD" 0)
+(setvar "FILEDIA" 0)
+_NETLOAD
+C:/Users/ADMINI~1/Desktop/00C#~1.NET/EXPERI~1/SUPPOR~1/ARTIFA~1/Debug/AUTOCA~1.DLL
+_NETLOAD
+D:/AnsysTemp/PointChecks40.dll
+SD_SETUP
+(setq previousregions (ssget "_X" '((8 . "SD-REGION"))))
+(if previousregions (progn (setq ri 0) (repeat (sslength previousregions) (entdel (ssname previousregions ri)) (setq ri (1+ ri)))))
+(setq ox 18259826.137068637 oy -1150051.2048687339)
+(defun region38 (x y w h) (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") '(8 . "SD-REGION") '(100 . "AcDbPolyline") '(90 . 4) '(70 . 1) (cons 10 (list (+ ox x) (+ oy y))) (cons 10 (list (+ ox x w) (+ oy y))) (cons 10 (list (+ ox x w) (+ oy y h))) (cons 10 (list (+ ox x) (+ oy y h))))))
+(region38 0 -820 240 610)
+(region38 240 -390 775.13773125 120)
+_ZOOM
+_E
+(command "SD_AUTO_DETAIL" "_non" (list (- ox 1000) (- oy 1300)) "_non" (list (+ ox 1500) (+ oy 1000)) "_non" '(0 0 0))
+SD_VERIFY38_OUTLINE
+SD_VERIFY40_SUPPORT
+(command "_.SAVEAS" "2018" (getenv "SD_OUTLINE38_OUTPUT"))
+_QUIT
+_N
+
+

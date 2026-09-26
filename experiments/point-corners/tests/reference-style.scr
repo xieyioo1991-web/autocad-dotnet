@@ -1,0 +1,9 @@
+(setvar "SECURELOAD" 0)
+(setq f (open "D:/AnsysTemp/point-reference34.txt" "w"))
+(prin1 (entget (tblobjname "LAYER" "S-REIN-POINT")) f)
+(write-line "" f)
+(setq ss (ssget "_X" '((8 . "S-REIN-POINT"))))
+(if ss (progn (setq i 0) (repeat (sslength ss) (prin1 (entget (ssname ss i)) f) (write-line "" f) (setq i (1+ i)))))
+(close f)
+_QUIT
+_N

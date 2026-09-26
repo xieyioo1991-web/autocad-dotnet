@@ -1,0 +1,12 @@
+Autodesk.AutoCAD.Runtime.Exception: eNotApplicable
+   在 Autodesk.AutoCAD.DatabaseServices.LinetypeTableRecord.TextAt(Int32 index)
+   在 StyleAudit.<>c__DisplayClass5_0.<LineTypes>b__1(Int32 i)
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 StyleAudit.<LineTypes>b__5_0(ObjectId key)
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 StyleAudit.LineTypes(ObjectId id)
+   在 StyleAudit.Run()

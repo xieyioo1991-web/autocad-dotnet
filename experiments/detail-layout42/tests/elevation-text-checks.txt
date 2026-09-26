@@ -1,0 +1,3 @@
+OK elevation text moves clear without changing value
+OK elevation symbol and fixed dimension line remain at original coordinates
+PASS

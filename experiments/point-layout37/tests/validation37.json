@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0.37",
+  "rollbackAnchor": "1.0.0.36",
+  "host": "AutoCAD 2020 accoreconsole",
+  "targetFramework": "net472",
+  "buildErrors": 0,
+  "buildWarnings": 0,
+  "geometryChecksPassed": 185,
+  "nativeFilesValidated": 10,
+  "repeatAndOriginalBarsPreserved": true,
+  "dllSha256": "F612012009C0562D88FB3D62944A189985C7CAE39B0324059EA83B3CB9ADD0A1",
+  "knownLimits": [
+    "Actual architectural sample: two material-clipped rows lack a lawful fixed endpoint; explicit warnings retained.",
+    "Synthetic screenshot analogue: two clipped rows, one owner-path conflict and one short-curb400 conflict remain explicit.",
+    "Screenshots2-4 tested using synthetic geometry, not an unavailable original DWG."
+  ],
+  "reviewedSkills": [
+    "dotnet-csharp",
+    "dotnet-csharp-code-smells"
+  ]
+}

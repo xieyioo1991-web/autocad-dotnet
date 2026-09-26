@@ -1,0 +1,5 @@
+(setvar "SECURELOAD" 0)
+(command "NETLOAD" "D:/AnsysTemp/StyleAudit.dll")
+SD_AUDIT_REFERENCE_STYLE
+_QUIT
+_N

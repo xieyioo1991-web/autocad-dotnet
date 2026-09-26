@@ -1,0 +1,37 @@
+[
+  {
+    "anchor": "1.0.0.21",
+    "files": 22,
+    "valid": true
+  },
+  {
+    "anchor": "1.0.0.23",
+    "files": 37,
+    "valid": true
+  },
+  {
+    "anchor": "1.0.0.25",
+    "files": 51,
+    "valid": true
+  },
+  {
+    "anchor": "1.0.0.26",
+    "files": 59,
+    "valid": true
+  },
+  {
+    "anchor": "1.0.0.30",
+    "files": 118,
+    "valid": true
+  },
+  {
+    "anchor": "1.0.0.33",
+    "files": 183,
+    "valid": true
+  },
+  {
+    "anchor": "1.0.0.36",
+    "files": 166,
+    "valid": true
+  }
+]

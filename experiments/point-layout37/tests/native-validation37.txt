@@ -1,0 +1,10 @@
+PASS precision-interface: 26 native points; style, tangency, support exclusion, collision
+PASS offset50-sample: 26 native points; style, tangency, support exclusion, collision
+PASS point-contact-tagged: 7 native points; style, tangency, support exclusion, collision
+PASS paired-beam: 6 native points; style, tangency, support exclusion, collision
+PASS small-side-beam: 1 native points; style, tangency, support exclusion, collision
+PASS tiny-side-beam: 0 native points; style, tangency, support exclusion, collision
+PASS short-roof36: 7 native points; style, tangency, support exclusion, collision
+PASS tall-roof36: 10 native points; style, tangency, support exclusion, collision
+PASS curb36: 2 native points; style, tangency, support exclusion, collision
+PASS layout37-u-and-crossings: 20 native points; style, tangency, support exclusion, collision

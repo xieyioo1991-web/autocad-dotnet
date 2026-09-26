@@ -1,0 +1,5 @@
+PASS sloping line bounding rectangle must not fill empty paper
+PASS long vertical axis shifts title sideways without changing axis
+PASS hidden filled object does not block title
+PASS real filled obstacle still rejects placement and rolls back
+PASS large drawing coordinates retain title contents and clearance

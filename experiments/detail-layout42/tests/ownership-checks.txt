@@ -1,0 +1,2 @@
+PASS full annotation update rollback retains previous annotations and geometry
+PASS copied annotation owners remapped; updating copy leaves original unchanged

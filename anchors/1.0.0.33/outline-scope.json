@@ -1,0 +1,83 @@
+{
+  "Stage": "建筑轮廓",
+  "Baseline": "1.0.0.33",
+  "EntryCommands": [
+    "SD_SETUP",
+    "SD_AUTO_DETAIL"
+  ],
+  "Files": [
+    {
+      "Path": "source/src/AutoCADPlugin/Commands.cs",
+      "Methods": [
+        "SetupStandards",
+        "AutoDetail",
+        "AutoDetailCore"
+      ],
+      "SharedWithRebar": true,
+      "Sha256": "F6B56D9E9E906FDE4EB690436A2348983EC4C0D91A12C108D9C3229F3B2A23B7"
+    },
+    {
+      "Path": "source/src/AutoCADPlugin/ArchitecturalOutlineExtractor.cs",
+      "Methods": [
+        "Extract",
+        "IsReinforcedConcrete",
+        "AddSource",
+        "FilterConcreteBoundaries",
+        "RemoveDuplicates"
+      ],
+      "SharedWithRebar": false,
+      "Sha256": "FD76A1CF794BE4FD8FDF3435C7E83CB2D8F20E9CF3AB48B5BB34DD2C5098377C"
+    },
+    {
+      "Path": "source/src/AutoCADPlugin/GeometryTools.cs",
+      "Methods": [
+        "TransformFromBase",
+        "TransformPoint",
+        "GetExtents"
+      ],
+      "SharedWithRebar": true,
+      "Sha256": "3B1D9C364EFC2AA2DDC08DADA8E5220BE21D491BCD2A005AF8CE02D51D326EAE"
+    },
+    {
+      "Path": "source/src/AutoCADPlugin/DetailWriter.cs",
+      "Methods": [
+        "WriteOutlineSegment",
+        "WriteControlBoundary",
+        "WriteSupportAnnotations",
+        "WriteSupportCross",
+        "FindLabelPlacement"
+      ],
+      "SharedWithRebar": false,
+      "Sha256": "49B38867C7EBA38F57D7AF78BB6FA5A8AC38C5CEAEA24A43990B669252E68D0F"
+    },
+    {
+      "Path": "source/src/AutoCADPlugin/SupportClassification.cs",
+      "Methods": [
+        "Label",
+        "IsFloorSlab"
+      ],
+      "SharedWithRebar": true,
+      "Sha256": "85E54290927BAD223CDB703D70A7E5E65F99AC58427BFB7D35060DE702A0ED4A"
+    },
+    {
+      "Path": "source/src/AutoCADPlugin/OutlineRole.cs",
+      "Methods": [
+        "Set",
+        "Get"
+      ],
+      "SharedWithRebar": true,
+      "Sha256": "ECBA97A7203FA082AA7E5CF6385A73744F68FC75DF09B59E94282B7D58D0B426"
+    },
+    {
+      "Path": "source/src/AutoCADPlugin/Standards.cs",
+      "Methods": [
+        "ScaleFactor",
+        "Ensure",
+        "EnsureLayer"
+      ],
+      "SharedWithRebar": true,
+      "Sha256": "98EFBE2C20AE6BA69E596DA37A7C9CECBFF42BB467719FA1BBA0A24CAACB9C71"
+    }
+  ],
+  "Notes": "Whole-file hashes locate the frozen source. For shared files, only the listed members define this stage; other members may belong to longitudinal reinforcement."
+}

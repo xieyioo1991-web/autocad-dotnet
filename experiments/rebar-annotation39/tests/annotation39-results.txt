@@ -1,0 +1,13 @@
+PASS|contact38|bars=2|supports=2|legacyEntitiesReplaced=4|repeatStable=true|geometryUnchanged=true
+PASS|curb36|bars=1|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|layout37-u-and-crossings|bars=4|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|offset50-sample|bars=4|supports=2|legacyEntitiesReplaced=4|repeatStable=true|geometryUnchanged=true
+PASS|paired-beam|bars=1|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|point-contact-tagged|bars=2|supports=2|legacyEntitiesReplaced=4|repeatStable=true|geometryUnchanged=true
+PASS|precision-interface|bars=4|supports=2|legacyEntitiesReplaced=4|repeatStable=true|geometryUnchanged=true
+PASS|short-roof36|bars=1|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|small-side-beam|bars=1|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|tall-roof36|bars=2|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|tiny-side-beam|bars=1|supports=1|legacyEntitiesReplaced=2|repeatStable=true|geometryUnchanged=true
+PASS|rollback|unsupported arc rejected, all transaction changes rolled back
+PASS|copy-obstacle|large-coordinate copy owns its labels; original unchanged; unselected note avoided

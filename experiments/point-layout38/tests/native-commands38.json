@@ -1,0 +1,90 @@
+[
+  {
+    "name": "precision-interface",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\precision-interface-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 26,
+    "repeated": 26,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "offset50-sample",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\offset50-sample-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 26,
+    "repeated": 26,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "point-contact-tagged",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\point-contact-tagged-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 7,
+    "repeated": 7,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "paired-beam",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\paired-beam-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 6,
+    "repeated": 6,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "small-side-beam",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\small-side-beam-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 1,
+    "repeated": 1,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "tiny-side-beam",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\tiny-side-beam-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 0,
+    "repeated": 0,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "short-roof36",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\short-roof36-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 7,
+    "repeated": 7,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "tall-roof36",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\tall-roof36-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 10,
+    "repeated": 10,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "curb36",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\curb36-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 2,
+    "repeated": 2,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "layout37-u-and-crossings",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\layout37-u-and-crossings-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 20,
+    "repeated": 20,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  },
+  {
+    "name": "contact38",
+    "output": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-layout38\\tests\\final-run\\contact38-points38-final.dwg",
+    "barsUnchanged": true,
+    "count": 12,
+    "repeated": 12,
+    "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F"
+  }
+]

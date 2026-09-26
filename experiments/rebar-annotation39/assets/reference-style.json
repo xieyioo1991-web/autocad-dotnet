@@ -1,0 +1,40 @@
+{
+  "ReferenceDwg": "C:/Users/Administrator/Desktop/实例1：结构大样(最终完成目标).dwg",
+  "ReferenceDwgSha256": "D161F82E0699580B93801192513EF67A9F2B77D8F16E2AFCB7A63D16620F4233",
+  "TextHandles": [
+    "153",
+    "155",
+    "159"
+  ],
+  "LeaderHandles": [
+    "151",
+    "152",
+    "154",
+    "156",
+    "157",
+    "158"
+  ],
+  "TextLayer": "S-TEXT",
+  "TextColor": "ByLayer (7)",
+  "TextStyle": "TSSD_Label",
+  "TextHeight": 250,
+  "TextWidthFactor": 0.7,
+  "LeaderLayer": "S-OTHER-THIN",
+  "LeaderColor": "ByLayer (3)",
+  "LeaderLinetype": "ByLayer (Continuous)",
+  "LayerLineWeight": "Default",
+  "FontSources": [
+    "D:/Program Files/Autodesk/AutoCAD 2014/Fonts/tssdeng.shx",
+    "D:/Program Files/理正工具箱7.0/CAD/hztxt.shx"
+  ],
+  "Fonts": [
+    {
+      "File": "hztxt.shx",
+      "Sha256": "8DBB58ABEDA8B065B01252E373B2E27EDABDB7CE3E1EDE570F1A797C2A8F9BC6"
+    },
+    {
+      "File": "tssdeng.shx",
+      "Sha256": "53302DDB26694AF1A86EE771E59746BA170B137276E585054B452CA254D28884"
+    }
+  ]
+}

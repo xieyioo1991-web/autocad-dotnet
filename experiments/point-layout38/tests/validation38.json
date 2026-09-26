@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0.38",
+  "rollbackAnchor": "1.0.0.36",
+  "geometryChecks": 190,
+  "nativePointFiles": 11,
+  "architecturalCommand": "PASS SD_AUTO_DETAIL",
+  "screenshotAnaloguePoints": 12,
+  "sourceScreenshotIsSynthetic": true,
+  "dllSha256": "5D55EAB766BCA84B21282FDE66C6EA5F45B5D45F534CAF35B737B0D6D1B01F7F",
+  "framework": "net472",
+  "host": "AutoCAD 2020",
+  "pointRule": "Touching endpoint uses finite bar tangent contact; horizontal row owns shared vertical tail; free/support400 unchanged",
+  "annotationRule": "Horizontal underline, vertical pointer, or elbow plus horizontal landing based on support/outline/text clearance",
+  "remainingLimits": [
+    "Two material-clipped row warnings remain in contact38 fixture.",
+    "Crowded annotations report a conflict if candidate positions are all obstructed.",
+    "Manual bar semantic changes and curved longitudinal bars remain outside current supported scope."
+  ]
+}

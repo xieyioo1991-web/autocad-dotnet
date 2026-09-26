@@ -1,0 +1,11 @@
+10.150|DIM_ELEV|height=245|CADReader_TextStyle|tssdeng.shx|gbcbig.shx|width=1|color=7|weight=ByLayer|ltype=BYLAYER
+楼层梁|S-TEXT|height=250|TSSD_Label|tssdeng.shx|hztxt.shx|width=0.7|color=256|weight=ByLayer|ltype=BYLAYER
+楼层板|S-TEXT|height=250|TSSD_Label|tssdeng.shx|hztxt.shx|width=0.7|color=256|weight=ByLayer|ltype=BYLAYER
+%%1328@150|S-TEXT|height=250|TSSD_Label|tssdeng.shx|hztxt.shx|width=0.7|color=256|weight=ByLayer|ltype=BYLAYER
+%%1328@200|S-TEXT|height=250|TSSD_Label|tssdeng.shx|hztxt.shx|width=0.7|color=256|weight=ByLayer|ltype=BYLAYER
+%%1328@150|S-TEXT|height=250|TSSD_Label|tssdeng.shx|hztxt.shx|width=0.7|color=256|weight=ByLayer|ltype=BYLAYER
+屋面板钢筋|S-TEXT|height=250|TSSD_Label|tssdeng.shx|hztxt.shx|width=0.7|color=256|weight=ByLayer|ltype=BYLAYER
+未注明的分布点筋均为%%1328|S-TEXT-3|height=400|TSSD_Dimension|tssdeng.shx|hztxt.shx|width=0.7|color=0|weight=ByLayer|ltype=BYLAYER
+檐口大样图|S-TEXT-2|height=500|FY_HT|simhei.ttf||width=0.8|color=256|weight=ByLayer|ltype=BYLAYER
+LAYER|S-TEXT|7|ByLineWeightDefault|CONTINUOUS|plot=True
+LAYER|S-OTHER-THIN|3|ByLineWeightDefault|CONTINUOUS|plot=True

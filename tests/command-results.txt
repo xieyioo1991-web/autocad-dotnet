@@ -1,0 +1,2 @@
+bars=7 dots=23
+after repeat=30

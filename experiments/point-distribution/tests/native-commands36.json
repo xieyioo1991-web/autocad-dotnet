@@ -1,0 +1,74 @@
+[
+  {
+    "Fixture": "precision-interface",
+    "Dots": 23,
+    "Repeat": 23,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\precision-interface-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "offset50-sample",
+    "Dots": 23,
+    "Repeat": 23,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\offset50-sample-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "point-contact-tagged",
+    "Dots": 7,
+    "Repeat": 7,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\point-contact-tagged-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "paired-beam",
+    "Dots": 6,
+    "Repeat": 6,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\paired-beam-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "small-side-beam",
+    "Dots": 1,
+    "Repeat": 1,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\small-side-beam-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "tiny-side-beam",
+    "Dots": 0,
+    "Repeat": 0,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\tiny-side-beam-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "short-roof36",
+    "Dots": 7,
+    "Repeat": 7,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\short-roof36-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "tall-roof36",
+    "Dots": 8,
+    "Repeat": 8,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\tall-roof36-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  },
+  {
+    "Fixture": "curb36",
+    "Dots": 2,
+    "Repeat": 2,
+    "BarsUnchanged": true,
+    "Drawing": "C:\\Users\\Administrator\\Desktop\\00C#.NET二次开发\\experiments\\point-distribution\\tests\\final-run\\curb36-points36-final.dwg",
+    "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652"
+  }
+]

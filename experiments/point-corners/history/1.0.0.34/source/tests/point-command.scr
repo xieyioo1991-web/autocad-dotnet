@@ -1,0 +1,27 @@
+(setvar "SECURELOAD" 0)
+(setvar "FILEDIA" 0)
+_NETLOAD
+D:/AnsysTemp/PointPlugin34.dll
+SD_VERSION
+(defun bardata (/ ss i data) (setq ss (ssget "_X" '((8 . "S-REIN"))) i 0 data nil) (if ss (repeat (sslength ss) (setq data (cons (entget (ssname ss i)) data) i (1+ i)))) data)
+(setq beforebars (bardata))
+SD_POINT_REBAR
+_ALL
+
+(setq f (open "D:/AnsysTemp/point-command34.txt" "w"))
+(write-line (strcat "bars-unchanged=" (if (equal beforebars (bardata)) "true" "false")) f)
+(setq ss (ssget "_X" '((8 . "S-REIN-POINT"))))
+(write-line (strcat "dots=" (itoa (if ss (sslength ss) 0))) f)
+(if ss (progn (setq i 0) (repeat (sslength ss) (prin1 (entget (ssname ss i)) f) (write-line "" f) (setq i (1+ i)))))
+(prin1 (entget (tblobjname "LAYER" "S-REIN-POINT")) f)
+(write-line "" f)
+(close f)
+SD_POINT_REBAR
+_ALL
+
+(setq f (open "D:/AnsysTemp/point-command34.txt" "a"))
+(setq ss (ssget "_X" '((8 . "S-REIN-POINT"))))
+(write-line (strcat "repeat-dots=" (itoa (if ss (sslength ss) 0))) f)
+(close f)
+(command "_.SAVEAS" "2018" (getenv "SD_POINT_OUTPUT"))
+_QUIT

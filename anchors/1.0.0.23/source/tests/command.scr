@@ -1,0 +1,26 @@
+SECURELOAD
+0
+_NETLOAD
+D:\AnsysTemp\AutoCADPlugin-Offset23.dll
+SD_VERSION
+(setq old (ssget "_X" '((8 . "S-REIN"))))
+(command "_.ERASE" old "")
+(setq before (sslength (ssget "_X")))
+SD_REBAR
+_ALL
+
+(setq report (open "D:/AnsysTemp/offset-command.txt" "w"))
+(setq added (- (sslength (ssget "_X")) before))
+(write-line (strcat "new-entities=" (itoa added)) report)
+(setq bars (ssget "_X" '((8 . "S-REIN"))))
+(write-line (strcat "bars=" (itoa (sslength bars))) report)
+(close report)
+SD_REBAR
+_ALL
+
+(setq report (open "D:/AnsysTemp/offset-command.txt" "a"))
+(setq bars (ssget "_X" '((8 . "S-REIN"))))
+(write-line (strcat "after-repeat=" (itoa (sslength bars))) report)
+(close report)
+_QUIT
+_N

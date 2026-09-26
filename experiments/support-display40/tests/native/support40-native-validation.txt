@@ -1,0 +1,1 @@
+PASS native SD_AUTO_DETAIL: two Support boundaries; beam dashed lines=2; slab cross entities=0; unchanged rebar paths=4; unchanged dot centers=26

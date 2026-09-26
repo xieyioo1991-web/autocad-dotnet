@@ -1,0 +1,20 @@
+{
+  "Version": "1.0.0.43",
+  "AcceptedAnchor": "1.0.0.38",
+  "AwaitingUserAcceptance": true,
+  "Reproduced42Failure": "Empty enclosing frame rejected title and rolled back",
+  "Fixed43SameCase": true,
+  "ClearanceCasesPassed": 5,
+  "ExistingTitleAssertionsPassed": 9,
+  "AnnotationVariantsPassed": 3,
+  "ActualGenerateAllPassed": true,
+  "ProductionBars": 4,
+  "ProductionDots": 26,
+  "ProductionDimensions": 15,
+  "ProductionAxes": 2,
+  "ProductionTitle": 1,
+  "AuditReadErrors": 0,
+  "DllSHA256": "F36E29F59C03C9C38C77CF5FA0692D40A4558AE8A93A8A763F30FA6432A92B50",
+  "Preserved42DllSHA256": "0297816EE340A3DB802E49A6D68D5DA9D962958B5D69FA34E4D999BBE62472CE",
+  "OriginalArchitectureSha256": "312385A526BB42D81EA5D7021C25934189BF060C2F82628CD93F5B47A6164D5E"
+}

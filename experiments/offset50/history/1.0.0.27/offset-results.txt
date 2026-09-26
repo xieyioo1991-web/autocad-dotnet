@@ -1,0 +1,61 @@
+PASS rectangle 1000x600 -> 900x500, 50 offset
+PASS clockwise and large translated coordinates
+PASS rotated rectangle, non-template dimensions
+PASS concave L shape
+PASS shared edges merged before offset
+PASS support at end subtracted
+PASS support strip splits two material regions
+PASS open contour rejected
+PASS narrow region rejected
+PASS support island rejected
+PASS two rectangles touching only at a corner
+PASS screenshot topology: ledge and beam cap meet at one corner after removing supports
+PASS point contact with support crosses and labels, tagged and legacy drawings
+PASS no supports: closed offset retained
+PASS sub-tolerance vertex drift: side support still opens
+PASS end support: cap removed, endpoints unchanged
+PASS supports at both ends: two separate straight bars
+PASS partial support contact: remove only shared span
+PASS two separated contacts on one side: no connecting segment
+PASS nearby support and point contact do not open rebar
+PASS rotated, mirrored and translated partial contact
+PASS sloped shared edge: only its offset cap removed
+PASS screenshot-style eave and roof: two open polylines, native DWG, duplicate protection
+PASS anchorage: 1200 measured from support face, not old end
+PASS anchorage: exact 400 remainder bends, above 400 stays straight
+PASS anchorage: trial straight outside support becomes 800+400 bend
+PASS anchorage: choose lower side when it has more room
+PASS anchorage: tie uses counter-clockwise side deterministically
+PASS anchorage: 800 cannot fit, preserve failed end without extension
+PASS anchorage: 400 bend cannot fit on either side
+PASS anchorage: one failed end preserves old endpoint, other end still anchors
+PASS anchorage: bends do not run along opposite boundary
+PASS anchorage: do not jump to distant lobe of concave support
+PASS anchorage: bend tip inside but middle crosses void is rejected
+PASS anchorage: unrelated second support cannot supply missing depth
+PASS anchorage: closed paths unchanged, no fictitious anchor ends
+PASS anchorage: rotated/mirrored/translated/reversed path
+PASS anchorage: partial contact parallel end reports failure, no remote attachment
+PASS corner: concave L cut continues both directions, hits opposite bars at 300
+PASS corner: wide L extends full 400, convex corners stay bent
+PASS corner: rectangle has no cuts
+PASS corner: non-right concavity remains connected
+PASS corner: reversed rotated mirrored large coordinates and vertex zero
+PASS corner: drawing noise accepted but 89-degree corner not changed
+PASS corner: two concave cuts split closed U into two open bars
+PASS corner: anchored open path splits once, preserves both existing anchor tips
+PASS collision: nearest bar wins, exact 400 hits, beyond 400 ignored
+PASS collision: endpoints and collinear segments stop, behind and parallel do not
+PASS collision: crossing new extensions stop later arrival, independent of order
+PASS collision: equal-distance crossing and head-on meeting stop both
+PASS collision: trimmed-away proposal cannot stop another extension
+PASS collision: head-on meeting recomputed after one end stops early
+PASS corner: native inset L breaks at inset coordinate and reaches opposite bar
+INFO sample boundaries=1 bars=4
+INFO corners=3 ends=6 hits=1
+INFO anchors straight=1 bent=1 failed=0
+PASS actual architectural sample plus two supports
+INFO sample boundaries=2 bars=4
+INFO corners=2 ends=4 hits=0
+INFO anchors straight=2 bent=2 failed=0
+PASS actual architectural coordinates, beam top aligned with eave, both interfaces open

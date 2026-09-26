@@ -1,0 +1,10 @@
+{
+  "Version": "1.0.0.36",
+  "DllSha256": "E3EC359E37D489A60B28ABA3D994AD87057F18436ED67BAEEC361CB1ABE22652",
+  "RegressionPassed": 167,
+  "NativeDrawingsPassed": 9,
+  "StableSourceFilesCompared": 27,
+  "Anchor": "1.0.0.33",
+  "ApprovedAsAnchor": false,
+  "KnownLimitation": "Conflict intervals preserve fixed corners and remain incomplete, with coordinates reported."
+}

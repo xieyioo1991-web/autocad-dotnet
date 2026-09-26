@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net472</TargetFramework><LangVersion>latest</LangVersion><Nullable>enable</Nullable></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="System.Web.Extensions"/>
+  <Reference Include="AcMgd"><HintPath>D:\Program Files\Autodesk\AutoCAD 2020\acmgd.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="AcDbMgd"><HintPath>D:\Program Files\Autodesk\AutoCAD 2020\acdbmgd.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="AcCoreMgd"><HintPath>D:\Program Files\Autodesk\AutoCAD 2020\accoremgd.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>

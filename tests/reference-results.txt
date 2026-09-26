@@ -1,0 +1,1 @@
+PASS: all 30 target rebar polylines regenerated; every original vertex reproduced within 0.01 drawing unit. Original DWG not saved.

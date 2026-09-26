@@ -1,0 +1,27 @@
+PASS rectangle 1000x600 -> 900x500, 50 offset
+PASS clockwise and large translated coordinates
+PASS rotated rectangle, non-template dimensions
+PASS concave L shape
+PASS shared edges merged before offset
+PASS support at end subtracted
+PASS support strip splits two material regions
+PASS open contour rejected
+PASS narrow region rejected
+PASS support island rejected
+PASS two rectangles touching only at a corner
+PASS screenshot topology: ledge and beam cap meet at one corner after removing supports
+PASS point contact with support crosses and labels, tagged and legacy drawings
+PASS no supports: closed offset retained
+PASS sub-tolerance vertex drift: side support still opens
+PASS end support: cap removed, endpoints unchanged
+PASS supports at both ends: two separate straight bars
+PASS partial support contact: remove only shared span
+PASS two separated contacts on one side: no connecting segment
+PASS nearby support and point contact do not open rebar
+PASS rotated, mirrored and translated partial contact
+PASS sloped shared edge: only its offset cap removed
+PASS screenshot-style eave and roof: two open polylines, native DWG, duplicate protection
+INFO sample boundaries=1 bars=1
+PASS actual architectural sample plus two supports
+INFO sample boundaries=2 bars=2
+PASS actual architectural coordinates, beam top aligned with eave, both interfaces open

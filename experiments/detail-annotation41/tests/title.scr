@@ -1,0 +1,5 @@
+(setvar "SECURELOAD" 0)
+(command "NETLOAD" "C:/Users/Administrator/Desktop/00C#.NET????/experiments/detail-annotation41/tests/bin/Debug/net472/Annotation41Checks.dll")
+SD_CHECK41_TITLE
+_QUIT
+_N

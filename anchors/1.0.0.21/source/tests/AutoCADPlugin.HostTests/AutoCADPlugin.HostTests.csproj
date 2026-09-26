@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AutoCADInstallDir Condition="'$(AutoCADInstallDir)' == ''">D:\Program Files\Autodesk\AutoCAD 2020</AutoCADInstallDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AcCoreMgd"><HintPath>$(AutoCADInstallDir)\accoremgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcDbMgd"><HintPath>$(AutoCADInstallDir)\acdbmgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcMgd"><HintPath>$(AutoCADInstallDir)\acmgd.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
