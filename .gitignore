@@ -8,3 +8,23 @@ obj/
 TestResults/
 *.nupkg
 packages/
+
+# Local coding-agent configuration and conversation attachments.
+.codex/
+.agents/
+.codex-plugin/
+AGENTS.md
+AGENTS.override.md
+codex-clipboard-*
+
+# Immutable local source snapshots containing agent-only instructions.
+# The corresponding expanded project sources remain in the repository.
+/anchors/1.0.0.21/source-1.0.0.21.zip
+/anchors/1.0.0.23/source-1.0.0.23.zip
+/anchors/1.0.0.25/source-1.0.0.25.zip
+/anchors/1.0.0.26/source-1.0.0.26.zip
+/anchors/1.0.0.30/source-1.0.0.30.zip
+/anchors/1.0.0.33/source-1.0.0.33.zip
+/anchors/1.0.0.36/source-1.0.0.36.zip
+/anchors/1.0.0.38/source-1.0.0.38.zip
+/anchors/1.0.0.43/source-1.0.0.43.zip
