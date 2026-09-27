@@ -1,3 +1,16 @@
+# ⚠️ 停止维护公告：C# 版本已停止更新
+
+> [!IMPORTANT]
+> **本插件的 C# / .NET 版本已停止更新与维护。**
+>
+> 项目现已转为 **C++ / ObjectARX** 开发，后续开发与维护将在新仓库进行：
+>
+> **[前往 C++ / ObjectARX 版本：autocad-structure-detail](https://github.com/xieyioo1991-web/autocad-structure-detail)**
+>
+> 本仓库保留历史源码、发布版本及开发记录，供查阅参考。以下说明均为 C# 版本的历史资料，其中的后续开发计划不再执行。
+
+---
+
 # AutoCAD 2020 结构大样插件
 
 ## 使用方法（当前锚点 1.0.0.43）
